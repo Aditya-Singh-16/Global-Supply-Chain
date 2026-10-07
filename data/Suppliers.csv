@@ -1,0 +1,121 @@
+SupplierID,SupplierName,Country,Region,Rating,LeadTimeDays,ContactEmail
+SUP0001,Momentum Enterprises,Mexico,North America,2.9,18,contact1@supplier1.com
+SUP0002,Meridian Cargo Group,France,Europe,3.2,43,contact2@supplier2.com
+SUP0003,Pinnacle Supply Co,South Africa,Africa,4.2,6,contact3@supplier3.com
+SUP0004,Prime Networks,Spain,Europe,3.3,20,contact4@supplier4.com
+SUP0005,Pioneer Solutions,Mexico,North America,4.9,23,contact5@supplier5.com
+SUP0006,Crescent Cargo Group,Italy,Europe,4.7,44,contact6@supplier6.com
+SUP0007,Summit Distribution,Vietnam,Asia,2.8,38,contact7@supplier7.com
+SUP0008,Atlas Systems,UAE,Middle East,4.0,40,contact8@supplier8.com
+SUP0009,Fusion Supply Co,Japan,Asia,5.0,11,contact9@supplier9.com
+SUP0010,Crescent Traders,Singapore,Asia,4.4,10,contact10@supplier10.com
+SUP0011,Vertex Networks,Germany,Europe,4.2,41,contact11@supplier11.com
+SUP0012,Titan Cargo Group,Mexico,North America,4.0,32,contact12@supplier12.com
+SUP0013,Atlas Exports,Singapore,Asia,4.7,3,contact13@supplier13.com
+SUP0014,Apex Enterprises,Chile,South America,4.7,20,contact14@supplier14.com
+SUP0015,Orion Traders,Egypt,Africa,3.2,13,contact15@supplier15.com
+SUP0016,Global Systems,Vietnam,Asia,4.7,19,contact16@supplier16.com
+SUP0017,Vertex Exports,Singapore,Asia,4.8,43,contact17@supplier17.com
+SUP0018,Sterling Holdings,Poland,Europe,3.0,26,contact18@supplier18.com
+SUP0019,Vertex Exports,Egypt,Africa,4.9,36,contact19@supplier19.com
+SUP0020,Momentum Freight,USA,North America,3.7,10,contact20@supplier20.com
+SUP0021,Zenith Supply Co,India,Asia,2.6,39,contact21@supplier21.com
+SUP0022,Nova Systems,Mexico,North America,3.7,7,contact22@supplier22.com
+SUP0023,Pinnacle Networks,Egypt,Africa,2.8,45,contact23@supplier23.com
+SUP0024,Pinnacle Industries,Indonesia,Asia,3.2,41,contact24@supplier24.com
+SUP0025,Pioneer Solutions,South Korea,Asia,3.8,15,contact25@supplier25.com
+SUP0026,Zenith Cargo Group,South Africa,Africa,5.0,44,contact26@supplier26.com
+SUP0027,Meridian Solutions,India,Asia,3.8,10,contact27@supplier27.com
+SUP0028,Horizon Traders,Spain,Europe,3.3,40,contact28@supplier28.com
+SUP0029,Horizon Holdings,UAE,Middle East,3.1,7,contact29@supplier29.com
+SUP0030,Prime Supply Co,South Africa,Africa,2.7,5,contact30@supplier30.com
+SUP0031,Nova Exports,China,Asia,3.1,45,contact31@supplier31.com
+SUP0032,Pioneer Exports,Indonesia,Asia,2.8,39,contact32@supplier32.com
+SUP0033,Crescent Supply Co,Saudi Arabia,Middle East,4.5,29,contact33@supplier33.com
+SUP0034,Apex Traders,Italy,Europe,4.1,25,contact34@supplier34.com
+SUP0035,Alliance Manufacturing,South Korea,Asia,4.7,6,contact35@supplier35.com
+SUP0036,Apex Logistics,Chile,South America,3.5,24,contact36@supplier36.com
+SUP0037,Apex Supply Co,Australia,Oceania,3.0,37,contact37@supplier37.com
+SUP0038,Summit Cargo Group,Vietnam,Asia,3.0,32,contact38@supplier38.com
+SUP0039,Nova Manufacturing,Spain,Europe,4.5,38,contact39@supplier39.com
+SUP0040,Prime Enterprises,UK,Europe,5.0,3,contact40@supplier40.com
+SUP0041,Horizon Industries,Mexico,North America,3.5,33,contact41@supplier41.com
+SUP0042,Titan Solutions,Italy,Europe,2.6,27,contact42@supplier42.com
+SUP0043,Titan Distribution,USA,North America,4.8,32,contact43@supplier43.com
+SUP0044,Alliance Systems,Poland,Europe,4.9,38,contact44@supplier44.com
+SUP0045,Crescent Industries,Chile,South America,3.0,16,contact45@supplier45.com
+SUP0046,Catalyst Systems,Canada,North America,3.9,23,contact46@supplier46.com
+SUP0047,Prime Holdings,Canada,North America,3.7,36,contact47@supplier47.com
+SUP0048,Prime Exports,France,Europe,2.7,14,contact48@supplier48.com
+SUP0049,Momentum Traders,Mexico,North America,4.2,18,contact49@supplier49.com
+SUP0050,Apex Solutions,Japan,Asia,3.9,40,contact50@supplier50.com
+SUP0051,Prime Holdings,Brazil,South America,2.7,45,contact51@supplier51.com
+SUP0052,Catalyst Exports,Saudi Arabia,Middle East,3.3,19,contact52@supplier52.com
+SUP0053,Orion Supply Co,Italy,Europe,3.2,11,contact53@supplier53.com
+SUP0054,Zenith Manufacturing,Chile,South America,3.3,7,contact54@supplier54.com
+SUP0055,Meridian Holdings,USA,North America,5.0,9,contact55@supplier55.com
+SUP0056,Pinnacle Supply Co,Mexico,North America,3.8,11,contact56@supplier56.com
+SUP0057,Nova Solutions,India,Asia,3.1,21,contact57@supplier57.com
+SUP0058,Meridian Partners,France,Europe,3.9,22,contact58@supplier58.com
+SUP0059,Sterling Logistics,Brazil,South America,4.2,38,contact59@supplier59.com
+SUP0060,Apex Solutions,Poland,Europe,2.8,10,contact60@supplier60.com
+SUP0061,Pinnacle Industries,UK,Europe,3.2,41,contact61@supplier61.com
+SUP0062,Orion Supply Co,Italy,Europe,4.2,19,contact62@supplier62.com
+SUP0063,Crescent Distribution,Singapore,Asia,4.8,6,contact63@supplier63.com
+SUP0064,Alliance Partners,Mexico,North America,3.2,3,contact64@supplier64.com
+SUP0065,Summit Enterprises,China,Asia,4.9,13,contact65@supplier65.com
+SUP0066,Meridian Exports,Nigeria,Africa,4.3,38,contact66@supplier66.com
+SUP0067,Apex Traders,USA,North America,4.9,12,contact67@supplier67.com
+SUP0068,Prime Partners,UAE,Middle East,3.4,38,contact68@supplier68.com
+SUP0069,Alliance Industries,Germany,Europe,2.6,26,contact69@supplier69.com
+SUP0070,Prime Solutions,Australia,Oceania,3.4,18,contact70@supplier70.com
+SUP0071,Apex Freight,Chile,South America,4.5,29,contact71@supplier71.com
+SUP0072,Summit Solutions,Brazil,South America,4.8,13,contact72@supplier72.com
+SUP0073,Vertex Solutions,Australia,Oceania,3.5,14,contact73@supplier73.com
+SUP0074,Orion Networks,Nigeria,Africa,4.8,45,contact74@supplier74.com
+SUP0075,Horizon Distribution,Nigeria,Africa,2.9,9,contact75@supplier75.com
+SUP0076,Prime Partners,Japan,Asia,3.7,15,contact76@supplier76.com
+SUP0077,Meridian Freight,New Zealand,Oceania,3.3,17,contact77@supplier77.com
+SUP0078,Global Enterprises,Spain,Europe,3.0,24,contact78@supplier78.com
+SUP0079,Nova Networks,Netherlands,Europe,3.2,44,contact79@supplier79.com
+SUP0080,Titan Enterprises,Singapore,Asia,5.0,37,contact80@supplier80.com
+SUP0081,Global Traders,China,Asia,4.7,19,contact81@supplier81.com
+SUP0082,Catalyst Distribution,France,Europe,2.6,41,contact82@supplier82.com
+SUP0083,Fusion Systems,South Korea,Asia,4.5,30,contact83@supplier83.com
+SUP0084,Sterling Traders,Brazil,South America,3.5,39,contact84@supplier84.com
+SUP0085,Atlas Logistics,Italy,Europe,4.3,3,contact85@supplier85.com
+SUP0086,Pinnacle Enterprises,Singapore,Asia,4.3,45,contact86@supplier86.com
+SUP0087,Fusion Cargo Group,Italy,Europe,2.7,45,contact87@supplier87.com
+SUP0088,Momentum Freight,China,Asia,4.2,10,contact88@supplier88.com
+SUP0089,Zenith Exports,Nigeria,Africa,3.3,29,contact89@supplier89.com
+SUP0090,Titan Systems,China,Asia,3.2,11,contact90@supplier90.com
+SUP0091,Alliance Enterprises,Italy,Europe,4.9,14,contact91@supplier91.com
+SUP0092,Catalyst Distribution,Brazil,South America,3.5,3,contact92@supplier92.com
+SUP0093,Zenith Supply Co,Poland,Europe,3.6,40,contact93@supplier93.com
+SUP0094,Orion Manufacturing,Brazil,South America,3.6,16,contact94@supplier94.com
+SUP0095,Crescent Networks,Singapore,Asia,4.8,13,contact95@supplier95.com
+SUP0096,Nova Distribution,Chile,South America,3.8,43,contact96@supplier96.com
+SUP0097,Orion Traders,Brazil,South America,4.5,18,contact97@supplier97.com
+SUP0098,Zenith Supply Co,Chile,South America,4.5,12,contact98@supplier98.com
+SUP0099,Prime Supply Co,USA,North America,5.0,42,contact99@supplier99.com
+SUP0100,Nova Manufacturing,Egypt,Africa,3.5,43,contact100@supplier100.com
+SUP0101,Pioneer Systems,Saudi Arabia,Middle East,4.2,34,contact101@supplier101.com
+SUP0102,Horizon Industries,Japan,Asia,4.1,3,contact102@supplier102.com
+SUP0103,Apex Networks,Egypt,Africa,3.6,14,contact103@supplier103.com
+SUP0104,Sterling Manufacturing,Australia,Oceania,2.6,18,contact104@supplier104.com
+SUP0105,Meridian Industries,UK,Europe,4.5,45,contact105@supplier105.com
+SUP0106,Pinnacle Holdings,Singapore,Asia,3.3,31,contact106@supplier106.com
+SUP0107,Sterling Cargo Group,Brazil,South America,4.6,38,contact107@supplier107.com
+SUP0108,Vertex Systems,Vietnam,Asia,4.7,31,contact108@supplier108.com
+SUP0109,Horizon Partners,Netherlands,Europe,4.1,36,contact109@supplier109.com
+SUP0110,Horizon Distribution,Indonesia,Asia,3.6,21,contact110@supplier110.com
+SUP0111,Atlas Freight,Spain,Europe,3.3,37,contact111@supplier111.com
+SUP0112,Summit Industries,Mexico,North America,3.1,12,contact112@supplier112.com
+SUP0113,Pioneer Traders,South Africa,Africa,3.5,24,contact113@supplier113.com
+SUP0114,Meridian Cargo Group,UAE,Middle East,2.7,29,contact114@supplier114.com
+SUP0115,Catalyst Systems,Japan,Asia,2.5,39,contact115@supplier115.com
+SUP0116,Crescent Logistics,Japan,Asia,4.9,22,contact116@supplier116.com
+SUP0117,Titan Partners,Egypt,Africa,4.7,29,contact117@supplier117.com
+SUP0118,Pinnacle Networks,UAE,Middle East,4.0,17,contact118@supplier118.com
+SUP0119,Horizon Distribution,Indonesia,Asia,3.6,4,contact119@supplier119.com
+SUP0120,Orion Enterprises,Japan,Asia,4.2,28,contact120@supplier120.com

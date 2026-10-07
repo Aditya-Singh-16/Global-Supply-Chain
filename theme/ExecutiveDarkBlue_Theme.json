@@ -1,0 +1,62 @@
+{
+  "name": "Executive Dark Blue",
+  "dataColors": [
+    "#0B3D66",
+    "#1F6FB2",
+    "#4FA3E3",
+    "#8FCBF2",
+    "#0A2540",
+    "#2E8B99",
+    "#F2A649",
+    "#E85D5D",
+    "#7BC67E",
+    "#B39DDB"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#0A2540",
+  "tableAccent": "#0B3D66",
+  "good": "#3EAE5D",
+  "neutral": "#F2A649",
+  "bad": "#E85D5D",
+  "maximum": "#0B3D66",
+  "center": "#8FCBF2",
+  "minimum": "#F2F6FA",
+  "null": "#C9D6E3",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": [
+          {
+            "background": { "solid": { "color": "#FFFFFF" } },
+            "border": { "show": true, "color": { "solid": { "color": "#E3E9F0" } }, "radius": 12 },
+            "outline": { "show": false }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "*": [
+          {
+            "background": { "solid": { "color": "#0B3D66" } },
+            "labels": { "color": { "solid": { "color": "#FFFFFF" } }, "fontSize": 28, "bold": true },
+            "categoryLabels": { "color": { "solid": { "color": "#8FCBF2" } }, "fontSize": 12 },
+            "border": { "show": true, "radius": 14 }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "*": [
+          { "background": { "color": { "solid": { "color": "#F2F6FA" } }, "transparency": 0 } }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 16, "color": "#0A2540" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#0A2540" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#41546B" }
+  }
+}

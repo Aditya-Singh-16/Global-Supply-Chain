@@ -1,0 +1,13 @@
+WarehouseID,WarehouseName,City,Country,Region,Capacity,ManagerName
+WH001,Chicago Distribution Center,Chicago,USA,North America,241294,Sandra Scott
+WH002,Los Angeles Distribution Center,Los Angeles,USA,North America,82722,Matthew Garcia
+WH003,Rotterdam Distribution Center,Rotterdam,Netherlands,Europe,194714,Charles Adams
+WH004,Hamburg Distribution Center,Hamburg,Germany,Europe,212141,Lisa Nguyen
+WH005,Shanghai Distribution Center,Shanghai,China,Asia,100407,Ana Jones
+WH006,Mumbai Distribution Center,Mumbai,India,Asia,62012,Noah Thomas
+WH007,Singapore Distribution Center,Singapore,Singapore,Asia,125861,Jennifer Thomas
+WH008,Dubai Distribution Center,Dubai,UAE,Middle East,76476,Matthew Jackson
+WH009,Sao Paulo Distribution Center,Sao Paulo,Brazil,South America,168858,Liam Harris
+WH010,Sydney Distribution Center,Sydney,Australia,Oceania,92638,Lisa White
+WH011,Tokyo Distribution Center,Tokyo,Japan,Asia,104921,Noah Jackson
+WH012,Johannesburg Distribution Center,Johannesburg,South Africa,Africa,233977,Emma Nelson

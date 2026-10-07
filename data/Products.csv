@@ -1,0 +1,801 @@
+ProductID,ProductName,Category,SubCategory,SupplierID,UnitCost,UnitPrice,ReorderLevel
+PRD00001,Smartphone Basic,Electronics,Smartphone,SUP0118,363.47,738.76,52
+PRD00002,Smartphone Pro,Electronics,Smartphone,SUP0117,490.46,839.09,120
+PRD00003,Smartphone Standard,Electronics,Smartphone,SUP0011,297.99,550.13,184
+PRD00004,Smartphone Deluxe,Electronics,Smartphone,SUP0024,217.16,447.39,32
+PRD00005,Smartphone Lite,Electronics,Smartphone,SUP0059,133.78,199.83,103
+PRD00006,Smartphone Max,Electronics,Smartphone,SUP0036,172.06,356.79,127
+PRD00007,Smartphone Plus,Electronics,Smartphone,SUP0003,129.87,160.52,158
+PRD00008,Smartphone Elite,Electronics,Smartphone,SUP0029,30.78,66.16,186
+PRD00009,Laptop Basic,Electronics,Laptop,SUP0006,38.97,83.99,27
+PRD00010,Laptop Pro,Electronics,Laptop,SUP0003,475.06,645.76,179
+PRD00011,Laptop Standard,Electronics,Laptop,SUP0086,80.43,103.15,49
+PRD00012,Laptop Deluxe,Electronics,Laptop,SUP0090,284.16,391.82,85
+PRD00013,Laptop Lite,Electronics,Laptop,SUP0078,384.61,510.06,49
+PRD00014,Laptop Max,Electronics,Laptop,SUP0040,390.01,515.58,47
+PRD00015,Laptop Plus,Electronics,Laptop,SUP0074,291.45,619.43,193
+PRD00016,Laptop Elite,Electronics,Laptop,SUP0092,454.47,701.73,70
+PRD00017,Tablet Basic,Electronics,Tablet,SUP0081,42.62,79.92,82
+PRD00018,Tablet Pro,Electronics,Tablet,SUP0109,55.44,108.72,195
+PRD00019,Tablet Standard,Electronics,Tablet,SUP0073,302.2,385.94,30
+PRD00020,Tablet Deluxe,Electronics,Tablet,SUP0048,176.87,282.96,37
+PRD00021,Tablet Lite,Electronics,Tablet,SUP0109,255.45,385.29,127
+PRD00022,Tablet Max,Electronics,Tablet,SUP0047,412.05,519.52,182
+PRD00023,Tablet Plus,Electronics,Tablet,SUP0020,446.33,728.73,131
+PRD00024,Tablet Elite,Electronics,Tablet,SUP0084,92.19,156.52,89
+PRD00025,Headphones Basic,Electronics,Headphones,SUP0100,309.88,655.58,143
+PRD00026,Headphones Pro,Electronics,Headphones,SUP0076,235.11,474.22,88
+PRD00027,Headphones Standard,Electronics,Headphones,SUP0120,164.54,231.63,42
+PRD00028,Headphones Deluxe,Electronics,Headphones,SUP0097,143.07,232.25,138
+PRD00029,Headphones Lite,Electronics,Headphones,SUP0044,287.08,531.56,27
+PRD00030,Headphones Max,Electronics,Headphones,SUP0063,249.68,372.34,74
+PRD00031,Headphones Plus,Electronics,Headphones,SUP0036,180.64,256.74,172
+PRD00032,Headphones Elite,Electronics,Headphones,SUP0002,352.09,507.04,152
+PRD00033,Smartwatch Basic,Electronics,Smartwatch,SUP0093,474.29,588.07,124
+PRD00034,Smartwatch Pro,Electronics,Smartwatch,SUP0089,246.85,480.39,141
+PRD00035,Smartwatch Standard,Electronics,Smartwatch,SUP0102,324.72,540.78,24
+PRD00036,Smartwatch Deluxe,Electronics,Smartwatch,SUP0089,51.06,70.6,82
+PRD00037,Smartwatch Lite,Electronics,Smartwatch,SUP0061,156.57,275.66,161
+PRD00038,Smartwatch Max,Electronics,Smartwatch,SUP0096,267.81,427.63,160
+PRD00039,Smartwatch Plus,Electronics,Smartwatch,SUP0035,168.74,318.58,98
+PRD00040,Smartwatch Elite,Electronics,Smartwatch,SUP0025,129.44,165.25,100
+PRD00041,Monitor Basic,Electronics,Monitor,SUP0098,64.18,109.92,196
+PRD00042,Monitor Pro,Electronics,Monitor,SUP0062,96.65,133.11,90
+PRD00043,Monitor Standard,Electronics,Monitor,SUP0068,363.67,791.14,172
+PRD00044,Monitor Deluxe,Electronics,Monitor,SUP0025,145.08,182.16,95
+PRD00045,Monitor Lite,Electronics,Monitor,SUP0002,117.6,157.4,156
+PRD00046,Monitor Max,Electronics,Monitor,SUP0007,67.66,81.04,161
+PRD00047,Monitor Plus,Electronics,Monitor,SUP0082,149.61,320.36,145
+PRD00048,Monitor Elite,Electronics,Monitor,SUP0037,55.78,64.87,140
+PRD00049,Keyboard Basic,Electronics,Keyboard,SUP0007,241.96,364.81,84
+PRD00050,Keyboard Pro,Electronics,Keyboard,SUP0106,470.83,777.63,36
+PRD00051,Keyboard Standard,Electronics,Keyboard,SUP0081,203.35,249.67,195
+PRD00052,Keyboard Deluxe,Electronics,Keyboard,SUP0073,31.54,41.21,97
+PRD00053,Keyboard Lite,Electronics,Keyboard,SUP0072,47.16,66.52,126
+PRD00054,Keyboard Max,Electronics,Keyboard,SUP0029,305.13,604.24,153
+PRD00055,Keyboard Plus,Electronics,Keyboard,SUP0039,193.29,406.67,170
+PRD00056,Keyboard Elite,Electronics,Keyboard,SUP0080,495.07,728.07,35
+PRD00057,Camera Basic,Electronics,Camera,SUP0098,306.77,591.17,73
+PRD00058,Camera Pro,Electronics,Camera,SUP0011,314.63,449.25,60
+PRD00059,Camera Standard,Electronics,Camera,SUP0021,123.73,214.0,20
+PRD00060,Camera Deluxe,Electronics,Camera,SUP0061,207.22,388.3,94
+PRD00061,Camera Lite,Electronics,Camera,SUP0037,21.16,30.74,199
+PRD00062,Camera Max,Electronics,Camera,SUP0030,430.51,527.26,87
+PRD00063,Camera Plus,Electronics,Camera,SUP0085,394.97,713.44,70
+PRD00064,Camera Elite,Electronics,Camera,SUP0083,215.44,370.94,58
+PRD00065,Speaker Basic,Electronics,Speaker,SUP0010,454.66,917.49,35
+PRD00066,Speaker Pro,Electronics,Speaker,SUP0096,87.13,128.34,165
+PRD00067,Speaker Standard,Electronics,Speaker,SUP0060,460.99,742.71,196
+PRD00068,Speaker Deluxe,Electronics,Speaker,SUP0035,155.53,244.59,148
+PRD00069,Speaker Lite,Electronics,Speaker,SUP0077,272.29,438.29,30
+PRD00070,Speaker Max,Electronics,Speaker,SUP0078,445.26,855.46,84
+PRD00071,Speaker Plus,Electronics,Speaker,SUP0087,17.8,24.75,167
+PRD00072,Speaker Elite,Electronics,Speaker,SUP0098,295.63,346.41,192
+PRD00073,Router Basic,Electronics,Router,SUP0098,411.6,722.38,64
+PRD00074,Router Pro,Electronics,Router,SUP0118,237.9,436.33,91
+PRD00075,Router Standard,Electronics,Router,SUP0082,94.84,167.35,145
+PRD00076,Router Deluxe,Electronics,Router,SUP0053,484.68,796.58,105
+PRD00077,Router Lite,Electronics,Router,SUP0021,163.92,206.51,104
+PRD00078,Router Max,Electronics,Router,SUP0085,208.76,348.68,122
+PRD00079,Router Plus,Electronics,Router,SUP0059,407.72,704.38,42
+PRD00080,Router Elite,Electronics,Router,SUP0099,160.69,239.34,123
+PRD00081,T-Shirt Basic,Apparel,T-Shirt,SUP0001,433.13,873.27,188
+PRD00082,T-Shirt Pro,Apparel,T-Shirt,SUP0007,435.34,711.81,68
+PRD00083,T-Shirt Standard,Apparel,T-Shirt,SUP0064,261.63,471.92,180
+PRD00084,T-Shirt Deluxe,Apparel,T-Shirt,SUP0035,223.81,269.51,160
+PRD00085,T-Shirt Lite,Apparel,T-Shirt,SUP0113,69.85,101.45,198
+PRD00086,T-Shirt Max,Apparel,T-Shirt,SUP0081,244.93,289.09,175
+PRD00087,T-Shirt Plus,Apparel,T-Shirt,SUP0040,400.66,759.36,161
+PRD00088,T-Shirt Elite,Apparel,T-Shirt,SUP0029,11.77,18.58,49
+PRD00089,Jeans Basic,Apparel,Jeans,SUP0107,233.42,297.22,59
+PRD00090,Jeans Pro,Apparel,Jeans,SUP0066,251.7,478.84,200
+PRD00091,Jeans Standard,Apparel,Jeans,SUP0061,140.35,284.41,82
+PRD00092,Jeans Deluxe,Apparel,Jeans,SUP0025,231.11,300.88,173
+PRD00093,Jeans Lite,Apparel,Jeans,SUP0111,256.58,531.97,37
+PRD00094,Jeans Max,Apparel,Jeans,SUP0054,141.74,280.58,107
+PRD00095,Jeans Plus,Apparel,Jeans,SUP0106,467.45,786.78,20
+PRD00096,Jeans Elite,Apparel,Jeans,SUP0076,145.01,212.22,168
+PRD00097,Jacket Basic,Apparel,Jacket,SUP0020,499.46,831.16,134
+PRD00098,Jacket Pro,Apparel,Jacket,SUP0071,271.6,410.76,159
+PRD00099,Jacket Standard,Apparel,Jacket,SUP0112,191.72,408.27,68
+PRD00100,Jacket Deluxe,Apparel,Jacket,SUP0050,490.48,687.04,79
+PRD00101,Jacket Lite,Apparel,Jacket,SUP0041,428.73,677.96,141
+PRD00102,Jacket Max,Apparel,Jacket,SUP0050,354.09,708.88,189
+PRD00103,Jacket Plus,Apparel,Jacket,SUP0020,397.23,728.77,146
+PRD00104,Jacket Elite,Apparel,Jacket,SUP0076,482.59,618.95,104
+PRD00105,Sneakers Basic,Apparel,Sneakers,SUP0057,435.5,900.57,45
+PRD00106,Sneakers Pro,Apparel,Sneakers,SUP0093,265.35,432.46,56
+PRD00107,Sneakers Standard,Apparel,Sneakers,SUP0020,207.94,382.09,39
+PRD00108,Sneakers Deluxe,Apparel,Sneakers,SUP0044,237.4,514.6,179
+PRD00109,Sneakers Lite,Apparel,Sneakers,SUP0110,347.89,637.45,104
+PRD00110,Sneakers Max,Apparel,Sneakers,SUP0049,426.91,876.15,101
+PRD00111,Sneakers Plus,Apparel,Sneakers,SUP0063,315.27,656.33,158
+PRD00112,Sneakers Elite,Apparel,Sneakers,SUP0081,22.77,27.82,195
+PRD00113,Dress Basic,Apparel,Dress,SUP0096,460.86,1012.65,43
+PRD00114,Dress Pro,Apparel,Dress,SUP0082,219.82,275.51,200
+PRD00115,Dress Standard,Apparel,Dress,SUP0089,436.93,706.02,96
+PRD00116,Dress Deluxe,Apparel,Dress,SUP0102,452.19,541.85,34
+PRD00117,Dress Lite,Apparel,Dress,SUP0019,150.22,231.88,82
+PRD00118,Dress Max,Apparel,Dress,SUP0102,267.93,467.33,66
+PRD00119,Dress Plus,Apparel,Dress,SUP0112,89.14,109.9,117
+PRD00120,Dress Elite,Apparel,Dress,SUP0117,311.76,437.36,169
+PRD00121,Sweater Basic,Apparel,Sweater,SUP0033,75.84,123.94,137
+PRD00122,Sweater Pro,Apparel,Sweater,SUP0103,131.39,152.39,139
+PRD00123,Sweater Standard,Apparel,Sweater,SUP0021,451.1,839.72,38
+PRD00124,Sweater Deluxe,Apparel,Sweater,SUP0076,223.66,338.36,96
+PRD00125,Sweater Lite,Apparel,Sweater,SUP0033,321.27,512.59,136
+PRD00126,Sweater Max,Apparel,Sweater,SUP0050,423.43,575.52,143
+PRD00127,Sweater Plus,Apparel,Sweater,SUP0046,57.79,89.6,167
+PRD00128,Sweater Elite,Apparel,Sweater,SUP0003,151.46,285.39,188
+PRD00129,Shorts Basic,Apparel,Shorts,SUP0111,200.92,232.77,195
+PRD00130,Shorts Pro,Apparel,Shorts,SUP0117,390.26,847.76,175
+PRD00131,Shorts Standard,Apparel,Shorts,SUP0116,373.86,756.87,93
+PRD00132,Shorts Deluxe,Apparel,Shorts,SUP0103,388.99,541.33,110
+PRD00133,Shorts Lite,Apparel,Shorts,SUP0033,113.41,153.06,193
+PRD00134,Shorts Max,Apparel,Shorts,SUP0088,379.01,741.28,55
+PRD00135,Shorts Plus,Apparel,Shorts,SUP0083,315.98,663.11,30
+PRD00136,Shorts Elite,Apparel,Shorts,SUP0075,157.92,254.7,113
+PRD00137,Hat Basic,Apparel,Hat,SUP0038,367.52,457.43,103
+PRD00138,Hat Pro,Apparel,Hat,SUP0017,375.0,500.41,158
+PRD00139,Hat Standard,Apparel,Hat,SUP0065,438.85,673.26,89
+PRD00140,Hat Deluxe,Apparel,Hat,SUP0106,416.08,590.76,143
+PRD00141,Hat Lite,Apparel,Hat,SUP0112,483.86,706.39,106
+PRD00142,Hat Max,Apparel,Hat,SUP0010,403.1,661.79,56
+PRD00143,Hat Plus,Apparel,Hat,SUP0087,378.3,524.66,192
+PRD00144,Hat Elite,Apparel,Hat,SUP0103,490.07,1061.31,162
+PRD00145,Socks Basic,Apparel,Socks,SUP0002,186.06,368.44,87
+PRD00146,Socks Pro,Apparel,Socks,SUP0087,270.6,440.41,192
+PRD00147,Socks Standard,Apparel,Socks,SUP0082,134.77,208.9,115
+PRD00148,Socks Deluxe,Apparel,Socks,SUP0004,58.63,81.82,178
+PRD00149,Socks Lite,Apparel,Socks,SUP0118,442.7,770.07,176
+PRD00150,Socks Max,Apparel,Socks,SUP0106,114.58,139.37,138
+PRD00151,Socks Plus,Apparel,Socks,SUP0053,455.15,667.84,49
+PRD00152,Socks Elite,Apparel,Socks,SUP0039,74.19,159.03,146
+PRD00153,Coat Basic,Apparel,Coat,SUP0069,62.48,87.26,54
+PRD00154,Coat Pro,Apparel,Coat,SUP0096,197.38,303.88,198
+PRD00155,Coat Standard,Apparel,Coat,SUP0096,473.26,752.52,59
+PRD00156,Coat Deluxe,Apparel,Coat,SUP0107,443.28,814.6,145
+PRD00157,Coat Lite,Apparel,Coat,SUP0036,309.75,661.63,28
+PRD00158,Coat Max,Apparel,Coat,SUP0057,346.69,477.78,80
+PRD00159,Coat Plus,Apparel,Coat,SUP0088,428.45,537.41,114
+PRD00160,Coat Elite,Apparel,Coat,SUP0046,274.51,597.54,35
+PRD00161,Blender Basic,Home & Kitchen,Blender,SUP0016,202.08,272.67,136
+PRD00162,Blender Pro,Home & Kitchen,Blender,SUP0082,50.38,69.16,172
+PRD00163,Blender Standard,Home & Kitchen,Blender,SUP0043,485.69,584.34,82
+PRD00164,Blender Deluxe,Home & Kitchen,Blender,SUP0027,494.47,977.23,37
+PRD00165,Blender Lite,Home & Kitchen,Blender,SUP0076,415.76,720.06,75
+PRD00166,Blender Max,Home & Kitchen,Blender,SUP0100,407.46,568.26,57
+PRD00167,Blender Plus,Home & Kitchen,Blender,SUP0036,395.38,702.11,57
+PRD00168,Blender Elite,Home & Kitchen,Blender,SUP0103,493.83,848.02,64
+PRD00169,Cookware Set Basic,Home & Kitchen,Cookware Set,SUP0017,59.41,122.37,23
+PRD00170,Cookware Set Pro,Home & Kitchen,Cookware Set,SUP0076,182.33,360.62,102
+PRD00171,Cookware Set Standard,Home & Kitchen,Cookware Set,SUP0017,12.81,18.3,127
+PRD00172,Cookware Set Deluxe,Home & Kitchen,Cookware Set,SUP0061,265.41,513.02,134
+PRD00173,Cookware Set Lite,Home & Kitchen,Cookware Set,SUP0014,390.12,658.87,135
+PRD00174,Cookware Set Max,Home & Kitchen,Cookware Set,SUP0006,254.4,545.1,188
+PRD00175,Cookware Set Plus,Home & Kitchen,Cookware Set,SUP0004,263.12,429.13,35
+PRD00176,Cookware Set Elite,Home & Kitchen,Cookware Set,SUP0055,499.3,1018.4,195
+PRD00177,Vacuum Cleaner Basic,Home & Kitchen,Vacuum Cleaner,SUP0057,58.44,110.92,38
+PRD00178,Vacuum Cleaner Pro,Home & Kitchen,Vacuum Cleaner,SUP0019,450.14,669.91,36
+PRD00179,Vacuum Cleaner Standard,Home & Kitchen,Vacuum Cleaner,SUP0075,67.46,121.8,160
+PRD00180,Vacuum Cleaner Deluxe,Home & Kitchen,Vacuum Cleaner,SUP0077,357.52,554.14,155
+PRD00181,Vacuum Cleaner Lite,Home & Kitchen,Vacuum Cleaner,SUP0056,150.97,253.75,45
+PRD00182,Vacuum Cleaner Max,Home & Kitchen,Vacuum Cleaner,SUP0084,397.58,504.98,186
+PRD00183,Vacuum Cleaner Plus,Home & Kitchen,Vacuum Cleaner,SUP0111,439.46,759.78,75
+PRD00184,Vacuum Cleaner Elite,Home & Kitchen,Vacuum Cleaner,SUP0053,217.88,453.73,106
+PRD00185,Air Fryer Basic,Home & Kitchen,Air Fryer,SUP0094,414.57,650.32,44
+PRD00186,Air Fryer Pro,Home & Kitchen,Air Fryer,SUP0033,159.71,236.08,115
+PRD00187,Air Fryer Standard,Home & Kitchen,Air Fryer,SUP0061,477.03,892.6,37
+PRD00188,Air Fryer Deluxe,Home & Kitchen,Air Fryer,SUP0056,50.16,62.18,44
+PRD00189,Air Fryer Lite,Home & Kitchen,Air Fryer,SUP0017,373.57,575.78,162
+PRD00190,Air Fryer Max,Home & Kitchen,Air Fryer,SUP0072,34.69,74.74,104
+PRD00191,Air Fryer Plus,Home & Kitchen,Air Fryer,SUP0112,336.66,532.38,190
+PRD00192,Air Fryer Elite,Home & Kitchen,Air Fryer,SUP0118,470.86,750.59,33
+PRD00193,Microwave Basic,Home & Kitchen,Microwave,SUP0046,484.36,862.37,46
+PRD00194,Microwave Pro,Home & Kitchen,Microwave,SUP0085,291.07,399.75,143
+PRD00195,Microwave Standard,Home & Kitchen,Microwave,SUP0109,116.0,146.58,162
+PRD00196,Microwave Deluxe,Home & Kitchen,Microwave,SUP0074,186.94,364.67,77
+PRD00197,Microwave Lite,Home & Kitchen,Microwave,SUP0099,404.57,824.28,179
+PRD00198,Microwave Max,Home & Kitchen,Microwave,SUP0004,308.72,563.36,175
+PRD00199,Microwave Plus,Home & Kitchen,Microwave,SUP0035,464.9,939.53,27
+PRD00200,Microwave Elite,Home & Kitchen,Microwave,SUP0040,94.31,178.04,106
+PRD00201,Toaster Basic,Home & Kitchen,Toaster,SUP0019,178.76,239.62,164
+PRD00202,Toaster Pro,Home & Kitchen,Toaster,SUP0095,330.39,404.09,182
+PRD00203,Toaster Standard,Home & Kitchen,Toaster,SUP0068,486.05,605.79,75
+PRD00204,Toaster Deluxe,Home & Kitchen,Toaster,SUP0021,191.22,310.99,114
+PRD00205,Toaster Lite,Home & Kitchen,Toaster,SUP0073,159.26,237.39,172
+PRD00206,Toaster Max,Home & Kitchen,Toaster,SUP0021,47.05,56.71,178
+PRD00207,Toaster Plus,Home & Kitchen,Toaster,SUP0057,29.63,36.61,189
+PRD00208,Toaster Elite,Home & Kitchen,Toaster,SUP0054,214.89,384.1,89
+PRD00209,Kettle Basic,Home & Kitchen,Kettle,SUP0045,111.71,188.56,130
+PRD00210,Kettle Pro,Home & Kitchen,Kettle,SUP0076,59.89,111.52,144
+PRD00211,Kettle Standard,Home & Kitchen,Kettle,SUP0029,265.83,391.79,121
+PRD00212,Kettle Deluxe,Home & Kitchen,Kettle,SUP0027,492.3,594.46,97
+PRD00213,Kettle Lite,Home & Kitchen,Kettle,SUP0098,472.94,924.94,85
+PRD00214,Kettle Max,Home & Kitchen,Kettle,SUP0064,148.28,189.2,130
+PRD00215,Kettle Plus,Home & Kitchen,Kettle,SUP0091,91.97,142.48,78
+PRD00216,Kettle Elite,Home & Kitchen,Kettle,SUP0104,252.63,511.58,110
+PRD00217,Bed Sheets Basic,Home & Kitchen,Bed Sheets,SUP0006,40.68,83.59,131
+PRD00218,Bed Sheets Pro,Home & Kitchen,Bed Sheets,SUP0111,14.28,30.23,100
+PRD00219,Bed Sheets Standard,Home & Kitchen,Bed Sheets,SUP0091,290.0,508.1,183
+PRD00220,Bed Sheets Deluxe,Home & Kitchen,Bed Sheets,SUP0003,211.76,269.13,103
+PRD00221,Bed Sheets Lite,Home & Kitchen,Bed Sheets,SUP0059,90.08,193.22,196
+PRD00222,Bed Sheets Max,Home & Kitchen,Bed Sheets,SUP0109,460.29,571.93,47
+PRD00223,Bed Sheets Plus,Home & Kitchen,Bed Sheets,SUP0068,125.44,221.82,40
+PRD00224,Bed Sheets Elite,Home & Kitchen,Bed Sheets,SUP0044,200.9,296.49,76
+PRD00225,Lamp Basic,Home & Kitchen,Lamp,SUP0066,169.87,225.34,182
+PRD00226,Lamp Pro,Home & Kitchen,Lamp,SUP0116,61.44,103.55,109
+PRD00227,Lamp Standard,Home & Kitchen,Lamp,SUP0083,178.79,385.5,57
+PRD00228,Lamp Deluxe,Home & Kitchen,Lamp,SUP0026,121.95,158.99,64
+PRD00229,Lamp Lite,Home & Kitchen,Lamp,SUP0084,303.19,590.68,39
+PRD00230,Lamp Max,Home & Kitchen,Lamp,SUP0064,92.69,181.81,138
+PRD00231,Lamp Plus,Home & Kitchen,Lamp,SUP0058,378.45,737.17,194
+PRD00232,Lamp Elite,Home & Kitchen,Lamp,SUP0082,462.46,805.94,179
+PRD00233,Curtains Basic,Home & Kitchen,Curtains,SUP0041,164.99,357.95,58
+PRD00234,Curtains Pro,Home & Kitchen,Curtains,SUP0081,222.68,365.72,97
+PRD00235,Curtains Standard,Home & Kitchen,Curtains,SUP0046,399.18,706.94,149
+PRD00236,Curtains Deluxe,Home & Kitchen,Curtains,SUP0005,41.72,68.21,34
+PRD00237,Curtains Lite,Home & Kitchen,Curtains,SUP0083,187.53,272.19,43
+PRD00238,Curtains Max,Home & Kitchen,Curtains,SUP0060,309.43,520.59,168
+PRD00239,Curtains Plus,Home & Kitchen,Curtains,SUP0115,279.39,553.59,30
+PRD00240,Curtains Elite,Home & Kitchen,Curtains,SUP0084,227.62,455.31,68
+PRD00241,Office Chair Basic,Furniture,Office Chair,SUP0020,164.16,270.77,35
+PRD00242,Office Chair Pro,Furniture,Office Chair,SUP0108,228.01,456.37,107
+PRD00243,Office Chair Standard,Furniture,Office Chair,SUP0083,491.28,608.47,64
+PRD00244,Office Chair Deluxe,Furniture,Office Chair,SUP0057,24.38,46.15,154
+PRD00245,Office Chair Lite,Furniture,Office Chair,SUP0048,263.76,347.29,92
+PRD00246,Office Chair Max,Furniture,Office Chair,SUP0087,196.77,386.3,173
+PRD00247,Office Chair Plus,Furniture,Office Chair,SUP0043,30.92,56.04,36
+PRD00248,Office Chair Elite,Furniture,Office Chair,SUP0050,168.2,291.97,92
+PRD00249,Sofa Basic,Furniture,Sofa,SUP0117,129.74,265.21,174
+PRD00250,Sofa Pro,Furniture,Sofa,SUP0075,437.27,655.92,189
+PRD00251,Sofa Standard,Furniture,Sofa,SUP0084,75.01,113.81,198
+PRD00252,Sofa Deluxe,Furniture,Sofa,SUP0091,332.76,427.73,41
+PRD00253,Sofa Lite,Furniture,Sofa,SUP0102,158.24,244.56,104
+PRD00254,Sofa Max,Furniture,Sofa,SUP0107,407.53,755.41,195
+PRD00255,Sofa Plus,Furniture,Sofa,SUP0086,456.66,569.97,128
+PRD00256,Sofa Elite,Furniture,Sofa,SUP0040,256.7,300.12,66
+PRD00257,Dining Table Basic,Furniture,Dining Table,SUP0099,475.83,717.94,144
+PRD00258,Dining Table Pro,Furniture,Dining Table,SUP0020,100.04,220.09,39
+PRD00259,Dining Table Standard,Furniture,Dining Table,SUP0065,151.42,299.44,158
+PRD00260,Dining Table Deluxe,Furniture,Dining Table,SUP0005,418.38,869.34,189
+PRD00261,Dining Table Lite,Furniture,Dining Table,SUP0017,171.7,335.61,172
+PRD00262,Dining Table Max,Furniture,Dining Table,SUP0107,191.48,252.82,197
+PRD00263,Dining Table Plus,Furniture,Dining Table,SUP0022,386.69,773.19,132
+PRD00264,Dining Table Elite,Furniture,Dining Table,SUP0093,26.63,40.81,80
+PRD00265,Bookshelf Basic,Furniture,Bookshelf,SUP0097,484.95,868.61,134
+PRD00266,Bookshelf Pro,Furniture,Bookshelf,SUP0104,120.83,169.3,140
+PRD00267,Bookshelf Standard,Furniture,Bookshelf,SUP0087,452.47,612.52,166
+PRD00268,Bookshelf Deluxe,Furniture,Bookshelf,SUP0037,492.3,804.79,117
+PRD00269,Bookshelf Lite,Furniture,Bookshelf,SUP0021,253.94,403.66,71
+PRD00270,Bookshelf Max,Furniture,Bookshelf,SUP0033,401.62,520.23,33
+PRD00271,Bookshelf Plus,Furniture,Bookshelf,SUP0071,322.38,666.62,46
+PRD00272,Bookshelf Elite,Furniture,Bookshelf,SUP0016,357.14,604.18,92
+PRD00273,Bed Frame Basic,Furniture,Bed Frame,SUP0058,46.52,61.33,151
+PRD00274,Bed Frame Pro,Furniture,Bed Frame,SUP0117,77.94,125.43,76
+PRD00275,Bed Frame Standard,Furniture,Bed Frame,SUP0120,409.27,850.82,26
+PRD00276,Bed Frame Deluxe,Furniture,Bed Frame,SUP0048,210.37,329.5,80
+PRD00277,Bed Frame Lite,Furniture,Bed Frame,SUP0029,196.15,242.38,27
+PRD00278,Bed Frame Max,Furniture,Bed Frame,SUP0092,162.75,204.09,186
+PRD00279,Bed Frame Plus,Furniture,Bed Frame,SUP0005,170.97,222.83,93
+PRD00280,Bed Frame Elite,Furniture,Bed Frame,SUP0107,459.11,755.73,55
+PRD00281,Desk Basic,Furniture,Desk,SUP0079,380.63,625.21,21
+PRD00282,Desk Pro,Furniture,Desk,SUP0028,453.4,530.46,58
+PRD00283,Desk Standard,Furniture,Desk,SUP0068,276.66,529.42,128
+PRD00284,Desk Deluxe,Furniture,Desk,SUP0039,60.04,87.21,51
+PRD00285,Desk Lite,Furniture,Desk,SUP0102,28.64,45.56,179
+PRD00286,Desk Max,Furniture,Desk,SUP0116,231.27,292.88,147
+PRD00287,Desk Plus,Furniture,Desk,SUP0066,300.39,350.63,167
+PRD00288,Desk Elite,Furniture,Desk,SUP0055,124.76,162.28,20
+PRD00289,Wardrobe Basic,Furniture,Wardrobe,SUP0054,309.33,433.86,67
+PRD00290,Wardrobe Pro,Furniture,Wardrobe,SUP0047,333.86,413.95,37
+PRD00291,Wardrobe Standard,Furniture,Wardrobe,SUP0101,476.93,820.93,149
+PRD00292,Wardrobe Deluxe,Furniture,Wardrobe,SUP0061,279.31,435.72,31
+PRD00293,Wardrobe Lite,Furniture,Wardrobe,SUP0033,319.66,696.89,24
+PRD00294,Wardrobe Max,Furniture,Wardrobe,SUP0031,181.76,221.92,188
+PRD00295,Wardrobe Plus,Furniture,Wardrobe,SUP0095,315.99,619.36,105
+PRD00296,Wardrobe Elite,Furniture,Wardrobe,SUP0044,71.04,107.97,184
+PRD00297,Coffee Table Basic,Furniture,Coffee Table,SUP0060,91.67,180.42,198
+PRD00298,Coffee Table Pro,Furniture,Coffee Table,SUP0018,241.87,324.44,36
+PRD00299,Coffee Table Standard,Furniture,Coffee Table,SUP0005,359.44,769.48,95
+PRD00300,Coffee Table Deluxe,Furniture,Coffee Table,SUP0114,104.79,207.55,30
+PRD00301,Coffee Table Lite,Furniture,Coffee Table,SUP0051,161.22,237.89,159
+PRD00302,Coffee Table Max,Furniture,Coffee Table,SUP0083,239.33,284.43,68
+PRD00303,Coffee Table Plus,Furniture,Coffee Table,SUP0007,146.62,301.34,187
+PRD00304,Coffee Table Elite,Furniture,Coffee Table,SUP0048,169.3,216.82,131
+PRD00305,Cabinet Basic,Furniture,Cabinet,SUP0115,445.3,859.64,118
+PRD00306,Cabinet Pro,Furniture,Cabinet,SUP0089,172.82,232.64,147
+PRD00307,Cabinet Standard,Furniture,Cabinet,SUP0035,186.84,371.28,41
+PRD00308,Cabinet Deluxe,Furniture,Cabinet,SUP0078,364.91,449.89,66
+PRD00309,Cabinet Lite,Furniture,Cabinet,SUP0011,275.01,409.01,103
+PRD00310,Cabinet Max,Furniture,Cabinet,SUP0078,332.16,488.88,129
+PRD00311,Cabinet Plus,Furniture,Cabinet,SUP0058,87.49,141.39,30
+PRD00312,Cabinet Elite,Furniture,Cabinet,SUP0079,364.77,768.64,131
+PRD00313,Stool Basic,Furniture,Stool,SUP0008,140.9,307.03,39
+PRD00314,Stool Pro,Furniture,Stool,SUP0066,337.24,531.67,193
+PRD00315,Stool Standard,Furniture,Stool,SUP0109,84.19,99.57,175
+PRD00316,Stool Deluxe,Furniture,Stool,SUP0017,340.65,548.47,37
+PRD00317,Stool Lite,Furniture,Stool,SUP0047,121.82,222.62,118
+PRD00318,Stool Max,Furniture,Stool,SUP0020,474.99,562.39,193
+PRD00319,Stool Plus,Furniture,Stool,SUP0057,227.71,350.56,39
+PRD00320,Stool Elite,Furniture,Stool,SUP0051,289.09,493.17,100
+PRD00321,Bicycle Basic,Sports & Outdoors,Bicycle,SUP0015,326.53,461.09,26
+PRD00322,Bicycle Pro,Sports & Outdoors,Bicycle,SUP0050,369.16,617.97,163
+PRD00323,Bicycle Standard,Sports & Outdoors,Bicycle,SUP0091,63.29,124.28,134
+PRD00324,Bicycle Deluxe,Sports & Outdoors,Bicycle,SUP0089,111.21,199.34,145
+PRD00325,Bicycle Lite,Sports & Outdoors,Bicycle,SUP0010,104.09,134.54,135
+PRD00326,Bicycle Max,Sports & Outdoors,Bicycle,SUP0012,90.46,171.79,194
+PRD00327,Bicycle Plus,Sports & Outdoors,Bicycle,SUP0086,483.94,1057.85,108
+PRD00328,Bicycle Elite,Sports & Outdoors,Bicycle,SUP0038,356.22,615.37,96
+PRD00329,Tent Basic,Sports & Outdoors,Tent,SUP0119,426.42,809.09,199
+PRD00330,Tent Pro,Sports & Outdoors,Tent,SUP0066,320.66,635.99,77
+PRD00331,Tent Standard,Sports & Outdoors,Tent,SUP0018,65.07,88.56,80
+PRD00332,Tent Deluxe,Sports & Outdoors,Tent,SUP0071,396.23,466.6,166
+PRD00333,Tent Lite,Sports & Outdoors,Tent,SUP0071,187.61,374.07,53
+PRD00334,Tent Max,Sports & Outdoors,Tent,SUP0040,307.91,381.97,121
+PRD00335,Tent Plus,Sports & Outdoors,Tent,SUP0068,499.8,952.03,125
+PRD00336,Tent Elite,Sports & Outdoors,Tent,SUP0010,385.74,777.08,52
+PRD00337,Yoga Mat Basic,Sports & Outdoors,Yoga Mat,SUP0058,486.33,887.29,139
+PRD00338,Yoga Mat Pro,Sports & Outdoors,Yoga Mat,SUP0113,341.65,516.49,161
+PRD00339,Yoga Mat Standard,Sports & Outdoors,Yoga Mat,SUP0017,321.7,431.42,130
+PRD00340,Yoga Mat Deluxe,Sports & Outdoors,Yoga Mat,SUP0107,253.92,523.49,51
+PRD00341,Yoga Mat Lite,Sports & Outdoors,Yoga Mat,SUP0021,261.46,384.17,102
+PRD00342,Yoga Mat Max,Sports & Outdoors,Yoga Mat,SUP0067,467.7,648.58,92
+PRD00343,Yoga Mat Plus,Sports & Outdoors,Yoga Mat,SUP0082,423.74,598.8,161
+PRD00344,Yoga Mat Elite,Sports & Outdoors,Yoga Mat,SUP0079,140.85,254.41,156
+PRD00345,Dumbbells Basic,Sports & Outdoors,Dumbbells,SUP0076,51.25,93.43,168
+PRD00346,Dumbbells Pro,Sports & Outdoors,Dumbbells,SUP0093,81.33,149.78,174
+PRD00347,Dumbbells Standard,Sports & Outdoors,Dumbbells,SUP0006,172.12,364.92,27
+PRD00348,Dumbbells Deluxe,Sports & Outdoors,Dumbbells,SUP0099,45.21,97.02,167
+PRD00349,Dumbbells Lite,Sports & Outdoors,Dumbbells,SUP0074,136.0,186.5,126
+PRD00350,Dumbbells Max,Sports & Outdoors,Dumbbells,SUP0114,310.96,367.49,180
+PRD00351,Dumbbells Plus,Sports & Outdoors,Dumbbells,SUP0039,275.06,501.71,143
+PRD00352,Dumbbells Elite,Sports & Outdoors,Dumbbells,SUP0052,126.21,252.13,96
+PRD00353,Backpack Basic,Sports & Outdoors,Backpack,SUP0021,229.5,429.86,132
+PRD00354,Backpack Pro,Sports & Outdoors,Backpack,SUP0044,210.73,345.1,175
+PRD00355,Backpack Standard,Sports & Outdoors,Backpack,SUP0041,76.12,156.39,108
+PRD00356,Backpack Deluxe,Sports & Outdoors,Backpack,SUP0048,487.81,627.96,151
+PRD00357,Backpack Lite,Sports & Outdoors,Backpack,SUP0060,283.02,420.3,51
+PRD00358,Backpack Max,Sports & Outdoors,Backpack,SUP0013,137.4,193.78,32
+PRD00359,Backpack Plus,Sports & Outdoors,Backpack,SUP0079,148.65,230.91,127
+PRD00360,Backpack Elite,Sports & Outdoors,Backpack,SUP0021,127.89,263.27,103
+PRD00361,Running Shoes Basic,Sports & Outdoors,Running Shoes,SUP0025,467.21,891.06,60
+PRD00362,Running Shoes Pro,Sports & Outdoors,Running Shoes,SUP0064,251.64,425.39,98
+PRD00363,Running Shoes Standard,Sports & Outdoors,Running Shoes,SUP0051,251.2,312.63,149
+PRD00364,Running Shoes Deluxe,Sports & Outdoors,Running Shoes,SUP0075,231.33,324.5,110
+PRD00365,Running Shoes Lite,Sports & Outdoors,Running Shoes,SUP0077,29.09,42.05,187
+PRD00366,Running Shoes Max,Sports & Outdoors,Running Shoes,SUP0002,337.9,489.97,47
+PRD00367,Running Shoes Plus,Sports & Outdoors,Running Shoes,SUP0094,218.31,453.34,113
+PRD00368,Running Shoes Elite,Sports & Outdoors,Running Shoes,SUP0052,383.11,587.78,33
+PRD00369,Football Basic,Sports & Outdoors,Football,SUP0071,287.29,389.1,93
+PRD00370,Football Pro,Sports & Outdoors,Football,SUP0098,41.4,69.53,160
+PRD00371,Football Standard,Sports & Outdoors,Football,SUP0088,143.46,313.97,176
+PRD00372,Football Deluxe,Sports & Outdoors,Football,SUP0051,63.81,138.71,115
+PRD00373,Football Lite,Sports & Outdoors,Football,SUP0047,398.47,600.11,56
+PRD00374,Football Max,Sports & Outdoors,Football,SUP0065,103.53,174.4,30
+PRD00375,Football Plus,Sports & Outdoors,Football,SUP0043,27.43,35.49,141
+PRD00376,Football Elite,Sports & Outdoors,Football,SUP0115,262.07,342.37,151
+PRD00377,Cooler Basic,Sports & Outdoors,Cooler,SUP0041,74.19,157.87,61
+PRD00378,Cooler Pro,Sports & Outdoors,Cooler,SUP0108,199.51,358.58,96
+PRD00379,Cooler Standard,Sports & Outdoors,Cooler,SUP0066,298.89,502.94,156
+PRD00380,Cooler Deluxe,Sports & Outdoors,Cooler,SUP0061,247.47,430.86,24
+PRD00381,Cooler Lite,Sports & Outdoors,Cooler,SUP0054,187.34,347.98,169
+PRD00382,Cooler Max,Sports & Outdoors,Cooler,SUP0112,157.3,329.34,196
+PRD00383,Cooler Plus,Sports & Outdoors,Cooler,SUP0034,316.48,562.31,187
+PRD00384,Cooler Elite,Sports & Outdoors,Cooler,SUP0074,392.54,771.33,78
+PRD00385,Fishing Rod Basic,Sports & Outdoors,Fishing Rod,SUP0022,362.09,638.26,154
+PRD00386,Fishing Rod Pro,Sports & Outdoors,Fishing Rod,SUP0108,316.37,569.69,117
+PRD00387,Fishing Rod Standard,Sports & Outdoors,Fishing Rod,SUP0005,78.15,145.73,166
+PRD00388,Fishing Rod Deluxe,Sports & Outdoors,Fishing Rod,SUP0003,474.36,600.25,132
+PRD00389,Fishing Rod Lite,Sports & Outdoors,Fishing Rod,SUP0089,160.28,209.81,72
+PRD00390,Fishing Rod Max,Sports & Outdoors,Fishing Rod,SUP0118,208.14,408.73,140
+PRD00391,Fishing Rod Plus,Sports & Outdoors,Fishing Rod,SUP0008,437.04,840.27,200
+PRD00392,Fishing Rod Elite,Sports & Outdoors,Fishing Rod,SUP0042,73.35,100.32,189
+PRD00393,Helmet Basic,Sports & Outdoors,Helmet,SUP0023,241.79,373.73,137
+PRD00394,Helmet Pro,Sports & Outdoors,Helmet,SUP0046,456.5,689.06,193
+PRD00395,Helmet Standard,Sports & Outdoors,Helmet,SUP0083,387.13,738.25,197
+PRD00396,Helmet Deluxe,Sports & Outdoors,Helmet,SUP0032,135.86,225.31,91
+PRD00397,Helmet Lite,Sports & Outdoors,Helmet,SUP0039,281.25,389.84,93
+PRD00398,Helmet Max,Sports & Outdoors,Helmet,SUP0063,353.93,663.53,101
+PRD00399,Helmet Plus,Sports & Outdoors,Helmet,SUP0120,242.5,421.59,90
+PRD00400,Helmet Elite,Sports & Outdoors,Helmet,SUP0070,147.46,258.37,117
+PRD00401,Action Figure Basic,Toys & Games,Action Figure,SUP0045,448.4,701.41,57
+PRD00402,Action Figure Pro,Toys & Games,Action Figure,SUP0092,148.77,216.02,40
+PRD00403,Action Figure Standard,Toys & Games,Action Figure,SUP0033,176.45,284.88,142
+PRD00404,Action Figure Deluxe,Toys & Games,Action Figure,SUP0035,110.92,223.99,163
+PRD00405,Action Figure Lite,Toys & Games,Action Figure,SUP0079,349.6,452.43,170
+PRD00406,Action Figure Max,Toys & Games,Action Figure,SUP0116,123.44,148.54,155
+PRD00407,Action Figure Plus,Toys & Games,Action Figure,SUP0013,116.71,162.75,125
+PRD00408,Action Figure Elite,Toys & Games,Action Figure,SUP0088,168.5,277.36,55
+PRD00409,Board Game Basic,Toys & Games,Board Game,SUP0119,7.56,13.06,60
+PRD00410,Board Game Pro,Toys & Games,Board Game,SUP0113,206.42,440.04,141
+PRD00411,Board Game Standard,Toys & Games,Board Game,SUP0037,241.34,328.08,102
+PRD00412,Board Game Deluxe,Toys & Games,Board Game,SUP0099,146.28,177.31,42
+PRD00413,Board Game Lite,Toys & Games,Board Game,SUP0095,327.89,457.02,29
+PRD00414,Board Game Max,Toys & Games,Board Game,SUP0113,457.05,609.62,65
+PRD00415,Board Game Plus,Toys & Games,Board Game,SUP0108,467.29,555.21,121
+PRD00416,Board Game Elite,Toys & Games,Board Game,SUP0096,395.04,531.58,94
+PRD00417,Puzzle Basic,Toys & Games,Puzzle,SUP0073,438.99,509.11,174
+PRD00418,Puzzle Pro,Toys & Games,Puzzle,SUP0037,58.11,126.8,136
+PRD00419,Puzzle Standard,Toys & Games,Puzzle,SUP0064,494.6,850.94,54
+PRD00420,Puzzle Deluxe,Toys & Games,Puzzle,SUP0025,426.27,699.69,48
+PRD00421,Puzzle Lite,Toys & Games,Puzzle,SUP0083,168.69,323.49,85
+PRD00422,Puzzle Max,Toys & Games,Puzzle,SUP0044,360.71,420.15,95
+PRD00423,Puzzle Plus,Toys & Games,Puzzle,SUP0023,286.05,556.41,176
+PRD00424,Puzzle Elite,Toys & Games,Puzzle,SUP0106,428.79,896.98,129
+PRD00425,RC Car Basic,Toys & Games,RC Car,SUP0086,260.06,322.75,44
+PRD00426,RC Car Pro,Toys & Games,RC Car,SUP0042,96.47,125.18,83
+PRD00427,RC Car Standard,Toys & Games,RC Car,SUP0058,8.38,13.01,88
+PRD00428,RC Car Deluxe,Toys & Games,RC Car,SUP0093,477.25,700.15,166
+PRD00429,RC Car Lite,Toys & Games,RC Car,SUP0089,10.66,19.58,80
+PRD00430,RC Car Max,Toys & Games,RC Car,SUP0040,35.75,45.55,60
+PRD00431,RC Car Plus,Toys & Games,RC Car,SUP0115,205.68,345.06,200
+PRD00432,RC Car Elite,Toys & Games,RC Car,SUP0082,386.07,723.81,95
+PRD00433,Building Blocks Basic,Toys & Games,Building Blocks,SUP0018,186.93,258.32,142
+PRD00434,Building Blocks Pro,Toys & Games,Building Blocks,SUP0078,80.83,156.42,115
+PRD00435,Building Blocks Standard,Toys & Games,Building Blocks,SUP0061,210.84,364.06,157
+PRD00436,Building Blocks Deluxe,Toys & Games,Building Blocks,SUP0098,401.99,810.77,83
+PRD00437,Building Blocks Lite,Toys & Games,Building Blocks,SUP0101,341.77,606.85,40
+PRD00438,Building Blocks Max,Toys & Games,Building Blocks,SUP0047,265.13,451.94,39
+PRD00439,Building Blocks Plus,Toys & Games,Building Blocks,SUP0107,459.04,581.98,160
+PRD00440,Building Blocks Elite,Toys & Games,Building Blocks,SUP0069,451.93,615.65,58
+PRD00441,Doll Basic,Toys & Games,Doll,SUP0057,86.45,176.98,49
+PRD00442,Doll Pro,Toys & Games,Doll,SUP0063,341.75,650.27,43
+PRD00443,Doll Standard,Toys & Games,Doll,SUP0008,449.95,727.91,136
+PRD00444,Doll Deluxe,Toys & Games,Doll,SUP0073,70.31,111.53,34
+PRD00445,Doll Lite,Toys & Games,Doll,SUP0040,281.6,522.76,25
+PRD00446,Doll Max,Toys & Games,Doll,SUP0096,200.99,403.44,75
+PRD00447,Doll Plus,Toys & Games,Doll,SUP0045,291.26,348.8,199
+PRD00448,Doll Elite,Toys & Games,Doll,SUP0120,36.56,80.21,37
+PRD00449,Video Game Basic,Toys & Games,Video Game,SUP0037,493.14,811.55,124
+PRD00450,Video Game Pro,Toys & Games,Video Game,SUP0083,94.09,121.58,185
+PRD00451,Video Game Standard,Toys & Games,Video Game,SUP0115,482.07,743.92,117
+PRD00452,Video Game Deluxe,Toys & Games,Video Game,SUP0049,227.03,479.71,116
+PRD00453,Video Game Lite,Toys & Games,Video Game,SUP0112,44.72,96.7,158
+PRD00454,Video Game Max,Toys & Games,Video Game,SUP0016,70.83,145.44,65
+PRD00455,Video Game Plus,Toys & Games,Video Game,SUP0017,496.46,775.82,77
+PRD00456,Video Game Elite,Toys & Games,Video Game,SUP0039,418.24,813.05,138
+PRD00457,Drone Basic,Toys & Games,Drone,SUP0069,338.38,582.58,117
+PRD00458,Drone Pro,Toys & Games,Drone,SUP0045,412.56,581.66,59
+PRD00459,Drone Standard,Toys & Games,Drone,SUP0093,141.45,301.89,48
+PRD00460,Drone Deluxe,Toys & Games,Drone,SUP0079,20.95,38.62,24
+PRD00461,Drone Lite,Toys & Games,Drone,SUP0077,124.13,151.52,28
+PRD00462,Drone Max,Toys & Games,Drone,SUP0112,225.99,419.35,32
+PRD00463,Drone Plus,Toys & Games,Drone,SUP0057,126.14,150.92,79
+PRD00464,Drone Elite,Toys & Games,Drone,SUP0100,272.18,528.6,34
+PRD00465,Card Game Basic,Toys & Games,Card Game,SUP0030,74.37,163.11,167
+PRD00466,Card Game Pro,Toys & Games,Card Game,SUP0087,162.86,289.53,102
+PRD00467,Card Game Standard,Toys & Games,Card Game,SUP0085,122.27,253.11,153
+PRD00468,Card Game Deluxe,Toys & Games,Card Game,SUP0008,114.42,167.69,162
+PRD00469,Card Game Lite,Toys & Games,Card Game,SUP0117,474.52,984.01,64
+PRD00470,Card Game Max,Toys & Games,Card Game,SUP0064,314.87,503.34,32
+PRD00471,Card Game Plus,Toys & Games,Card Game,SUP0086,486.28,1039.99,117
+PRD00472,Card Game Elite,Toys & Games,Card Game,SUP0054,393.97,584.92,124
+PRD00473,Plush Toy Basic,Toys & Games,Plush Toy,SUP0097,78.86,121.86,157
+PRD00474,Plush Toy Pro,Toys & Games,Plush Toy,SUP0039,239.39,488.79,56
+PRD00475,Plush Toy Standard,Toys & Games,Plush Toy,SUP0072,403.86,852.34,125
+PRD00476,Plush Toy Deluxe,Toys & Games,Plush Toy,SUP0018,484.05,839.9,119
+PRD00477,Plush Toy Lite,Toys & Games,Plush Toy,SUP0083,125.21,170.72,40
+PRD00478,Plush Toy Max,Toys & Games,Plush Toy,SUP0012,461.5,941.22,157
+PRD00479,Plush Toy Plus,Toys & Games,Plush Toy,SUP0035,363.67,490.96,116
+PRD00480,Plush Toy Elite,Toys & Games,Plush Toy,SUP0112,338.47,603.52,38
+PRD00481,Shampoo Basic,Health & Beauty,Shampoo,SUP0093,98.14,191.35,191
+PRD00482,Shampoo Pro,Health & Beauty,Shampoo,SUP0112,281.63,465.64,105
+PRD00483,Shampoo Standard,Health & Beauty,Shampoo,SUP0028,155.08,326.36,68
+PRD00484,Shampoo Deluxe,Health & Beauty,Shampoo,SUP0097,481.23,612.69,142
+PRD00485,Shampoo Lite,Health & Beauty,Shampoo,SUP0091,457.65,860.57,72
+PRD00486,Shampoo Max,Health & Beauty,Shampoo,SUP0042,201.33,282.12,92
+PRD00487,Shampoo Plus,Health & Beauty,Shampoo,SUP0046,193.43,330.83,98
+PRD00488,Shampoo Elite,Health & Beauty,Shampoo,SUP0064,134.47,227.05,139
+PRD00489,Moisturizer Basic,Health & Beauty,Moisturizer,SUP0061,53.81,117.33,101
+PRD00490,Moisturizer Pro,Health & Beauty,Moisturizer,SUP0053,457.59,704.34,31
+PRD00491,Moisturizer Standard,Health & Beauty,Moisturizer,SUP0019,283.45,391.82,24
+PRD00492,Moisturizer Deluxe,Health & Beauty,Moisturizer,SUP0075,134.08,285.79,126
+PRD00493,Moisturizer Lite,Health & Beauty,Moisturizer,SUP0030,151.12,204.92,117
+PRD00494,Moisturizer Max,Health & Beauty,Moisturizer,SUP0071,287.05,404.17,187
+PRD00495,Moisturizer Plus,Health & Beauty,Moisturizer,SUP0098,472.01,710.11,145
+PRD00496,Moisturizer Elite,Health & Beauty,Moisturizer,SUP0063,483.42,881.65,137
+PRD00497,Perfume Basic,Health & Beauty,Perfume,SUP0022,88.28,175.21,55
+PRD00498,Perfume Pro,Health & Beauty,Perfume,SUP0118,361.56,601.18,158
+PRD00499,Perfume Standard,Health & Beauty,Perfume,SUP0068,495.21,1067.23,28
+PRD00500,Perfume Deluxe,Health & Beauty,Perfume,SUP0105,420.34,516.2,191
+PRD00501,Perfume Lite,Health & Beauty,Perfume,SUP0018,29.01,33.56,181
+PRD00502,Perfume Max,Health & Beauty,Perfume,SUP0002,119.56,226.27,75
+PRD00503,Perfume Plus,Health & Beauty,Perfume,SUP0080,255.34,393.7,183
+PRD00504,Perfume Elite,Health & Beauty,Perfume,SUP0062,335.04,602.18,188
+PRD00505,Electric Trimmer Basic,Health & Beauty,Electric Trimmer,SUP0071,246.49,285.17,125
+PRD00506,Electric Trimmer Pro,Health & Beauty,Electric Trimmer,SUP0036,10.87,18.54,157
+PRD00507,Electric Trimmer Standard,Health & Beauty,Electric Trimmer,SUP0105,488.85,570.98,198
+PRD00508,Electric Trimmer Deluxe,Health & Beauty,Electric Trimmer,SUP0117,338.65,676.11,65
+PRD00509,Electric Trimmer Lite,Health & Beauty,Electric Trimmer,SUP0020,57.97,72.53,81
+PRD00510,Electric Trimmer Max,Health & Beauty,Electric Trimmer,SUP0105,100.01,170.29,110
+PRD00511,Electric Trimmer Plus,Health & Beauty,Electric Trimmer,SUP0048,137.33,215.16,123
+PRD00512,Electric Trimmer Elite,Health & Beauty,Electric Trimmer,SUP0090,232.2,326.33,77
+PRD00513,Vitamins Basic,Health & Beauty,Vitamins,SUP0011,153.49,309.97,187
+PRD00514,Vitamins Pro,Health & Beauty,Vitamins,SUP0005,495.88,908.65,43
+PRD00515,Vitamins Standard,Health & Beauty,Vitamins,SUP0061,205.61,317.88,34
+PRD00516,Vitamins Deluxe,Health & Beauty,Vitamins,SUP0011,320.19,604.51,147
+PRD00517,Vitamins Lite,Health & Beauty,Vitamins,SUP0043,423.44,773.69,164
+PRD00518,Vitamins Max,Health & Beauty,Vitamins,SUP0115,488.78,1061.89,155
+PRD00519,Vitamins Plus,Health & Beauty,Vitamins,SUP0116,459.98,639.95,197
+PRD00520,Vitamins Elite,Health & Beauty,Vitamins,SUP0006,444.34,732.84,39
+PRD00521,Sunscreen Basic,Health & Beauty,Sunscreen,SUP0070,343.79,496.57,164
+PRD00522,Sunscreen Pro,Health & Beauty,Sunscreen,SUP0109,330.76,442.66,100
+PRD00523,Sunscreen Standard,Health & Beauty,Sunscreen,SUP0019,12.75,17.44,121
+PRD00524,Sunscreen Deluxe,Health & Beauty,Sunscreen,SUP0073,464.79,680.56,81
+PRD00525,Sunscreen Lite,Health & Beauty,Sunscreen,SUP0087,285.51,582.99,158
+PRD00526,Sunscreen Max,Health & Beauty,Sunscreen,SUP0018,169.21,328.84,196
+PRD00527,Sunscreen Plus,Health & Beauty,Sunscreen,SUP0045,363.46,609.1,33
+PRD00528,Sunscreen Elite,Health & Beauty,Sunscreen,SUP0010,53.35,74.36,107
+PRD00529,Toothbrush Basic,Health & Beauty,Toothbrush,SUP0077,304.56,546.55,121
+PRD00530,Toothbrush Pro,Health & Beauty,Toothbrush,SUP0082,484.62,723.39,89
+PRD00531,Toothbrush Standard,Health & Beauty,Toothbrush,SUP0030,392.86,637.64,111
+PRD00532,Toothbrush Deluxe,Health & Beauty,Toothbrush,SUP0024,278.75,430.45,194
+PRD00533,Toothbrush Lite,Health & Beauty,Toothbrush,SUP0099,295.01,456.99,178
+PRD00534,Toothbrush Max,Health & Beauty,Toothbrush,SUP0010,151.21,213.02,41
+PRD00535,Toothbrush Plus,Health & Beauty,Toothbrush,SUP0101,137.65,213.22,182
+PRD00536,Toothbrush Elite,Health & Beauty,Toothbrush,SUP0047,81.37,126.86,47
+PRD00537,Hair Dryer Basic,Health & Beauty,Hair Dryer,SUP0057,50.3,107.65,112
+PRD00538,Hair Dryer Pro,Health & Beauty,Hair Dryer,SUP0012,381.87,480.14,67
+PRD00539,Hair Dryer Standard,Health & Beauty,Hair Dryer,SUP0066,218.33,378.77,124
+PRD00540,Hair Dryer Deluxe,Health & Beauty,Hair Dryer,SUP0071,56.13,69.83,43
+PRD00541,Hair Dryer Lite,Health & Beauty,Hair Dryer,SUP0111,300.48,593.05,118
+PRD00542,Hair Dryer Max,Health & Beauty,Hair Dryer,SUP0100,11.11,17.6,41
+PRD00543,Hair Dryer Plus,Health & Beauty,Hair Dryer,SUP0032,363.8,632.11,166
+PRD00544,Hair Dryer Elite,Health & Beauty,Hair Dryer,SUP0022,262.95,491.61,55
+PRD00545,Makeup Kit Basic,Health & Beauty,Makeup Kit,SUP0019,138.11,197.75,36
+PRD00546,Makeup Kit Pro,Health & Beauty,Makeup Kit,SUP0039,87.77,126.37,143
+PRD00547,Makeup Kit Standard,Health & Beauty,Makeup Kit,SUP0032,392.42,600.08,180
+PRD00548,Makeup Kit Deluxe,Health & Beauty,Makeup Kit,SUP0059,250.42,450.13,47
+PRD00549,Makeup Kit Lite,Health & Beauty,Makeup Kit,SUP0051,72.07,83.39,105
+PRD00550,Makeup Kit Max,Health & Beauty,Makeup Kit,SUP0111,421.6,653.01,104
+PRD00551,Makeup Kit Plus,Health & Beauty,Makeup Kit,SUP0106,222.91,357.13,186
+PRD00552,Makeup Kit Elite,Health & Beauty,Makeup Kit,SUP0042,487.24,629.97,174
+PRD00553,Razor Basic,Health & Beauty,Razor,SUP0041,473.9,644.93,65
+PRD00554,Razor Pro,Health & Beauty,Razor,SUP0038,482.46,1045.57,197
+PRD00555,Razor Standard,Health & Beauty,Razor,SUP0101,318.29,689.46,82
+PRD00556,Razor Deluxe,Health & Beauty,Razor,SUP0101,166.31,240.2,120
+PRD00557,Razor Lite,Health & Beauty,Razor,SUP0026,185.68,395.25,171
+PRD00558,Razor Max,Health & Beauty,Razor,SUP0099,498.65,667.65,160
+PRD00559,Razor Plus,Health & Beauty,Razor,SUP0091,18.32,35.06,73
+PRD00560,Razor Elite,Health & Beauty,Razor,SUP0089,222.04,323.27,37
+PRD00561,Car Battery Basic,Automotive,Car Battery,SUP0053,410.39,814.8,192
+PRD00562,Car Battery Pro,Automotive,Car Battery,SUP0031,252.16,457.67,84
+PRD00563,Car Battery Standard,Automotive,Car Battery,SUP0102,331.04,629.31,116
+PRD00564,Car Battery Deluxe,Automotive,Car Battery,SUP0062,41.61,91.14,169
+PRD00565,Car Battery Lite,Automotive,Car Battery,SUP0118,203.4,342.11,197
+PRD00566,Car Battery Max,Automotive,Car Battery,SUP0047,212.06,252.06,199
+PRD00567,Car Battery Plus,Automotive,Car Battery,SUP0082,448.27,768.22,41
+PRD00568,Car Battery Elite,Automotive,Car Battery,SUP0086,59.14,83.43,110
+PRD00569,Tires Basic,Automotive,Tires,SUP0073,87.34,156.63,185
+PRD00570,Tires Pro,Automotive,Tires,SUP0097,340.35,534.21,104
+PRD00571,Tires Standard,Automotive,Tires,SUP0002,483.03,773.8,45
+PRD00572,Tires Deluxe,Automotive,Tires,SUP0067,133.08,224.4,162
+PRD00573,Tires Lite,Automotive,Tires,SUP0058,292.36,512.8,115
+PRD00574,Tires Max,Automotive,Tires,SUP0076,198.61,389.47,196
+PRD00575,Tires Plus,Automotive,Tires,SUP0004,252.73,382.18,143
+PRD00576,Tires Elite,Automotive,Tires,SUP0011,56.75,90.05,49
+PRD00577,Engine Oil Basic,Automotive,Engine Oil,SUP0045,416.5,798.29,99
+PRD00578,Engine Oil Pro,Automotive,Engine Oil,SUP0067,174.82,345.0,143
+PRD00579,Engine Oil Standard,Automotive,Engine Oil,SUP0093,177.41,222.21,198
+PRD00580,Engine Oil Deluxe,Automotive,Engine Oil,SUP0006,228.96,279.45,49
+PRD00581,Engine Oil Lite,Automotive,Engine Oil,SUP0014,16.18,24.44,193
+PRD00582,Engine Oil Max,Automotive,Engine Oil,SUP0095,401.02,852.74,82
+PRD00583,Engine Oil Plus,Automotive,Engine Oil,SUP0043,260.42,450.4,163
+PRD00584,Engine Oil Elite,Automotive,Engine Oil,SUP0103,216.05,353.28,123
+PRD00585,Dash Cam Basic,Automotive,Dash Cam,SUP0085,316.73,426.23,130
+PRD00586,Dash Cam Pro,Automotive,Dash Cam,SUP0114,200.81,386.41,70
+PRD00587,Dash Cam Standard,Automotive,Dash Cam,SUP0001,227.54,364.3,200
+PRD00588,Dash Cam Deluxe,Automotive,Dash Cam,SUP0091,111.32,160.55,36
+PRD00589,Dash Cam Lite,Automotive,Dash Cam,SUP0069,290.79,578.52,67
+PRD00590,Dash Cam Max,Automotive,Dash Cam,SUP0015,186.07,252.48,87
+PRD00591,Dash Cam Plus,Automotive,Dash Cam,SUP0082,337.0,560.75,100
+PRD00592,Dash Cam Elite,Automotive,Dash Cam,SUP0076,300.5,538.46,49
+PRD00593,Seat Cover Basic,Automotive,Seat Cover,SUP0080,177.22,361.14,64
+PRD00594,Seat Cover Pro,Automotive,Seat Cover,SUP0039,407.8,771.27,177
+PRD00595,Seat Cover Standard,Automotive,Seat Cover,SUP0041,297.13,551.39,50
+PRD00596,Seat Cover Deluxe,Automotive,Seat Cover,SUP0048,123.09,156.67,197
+PRD00597,Seat Cover Lite,Automotive,Seat Cover,SUP0077,74.97,116.79,55
+PRD00598,Seat Cover Max,Automotive,Seat Cover,SUP0063,289.53,461.57,182
+PRD00599,Seat Cover Plus,Automotive,Seat Cover,SUP0120,271.0,573.2,64
+PRD00600,Seat Cover Elite,Automotive,Seat Cover,SUP0018,279.68,465.42,67
+PRD00601,Car Charger Basic,Automotive,Car Charger,SUP0007,160.72,260.94,111
+PRD00602,Car Charger Pro,Automotive,Car Charger,SUP0025,476.16,789.87,118
+PRD00603,Car Charger Standard,Automotive,Car Charger,SUP0064,482.1,810.27,124
+PRD00604,Car Charger Deluxe,Automotive,Car Charger,SUP0108,343.92,545.6,133
+PRD00605,Car Charger Lite,Automotive,Car Charger,SUP0004,246.91,305.38,76
+PRD00606,Car Charger Max,Automotive,Car Charger,SUP0069,149.58,215.19,93
+PRD00607,Car Charger Plus,Automotive,Car Charger,SUP0096,88.26,143.88,146
+PRD00608,Car Charger Elite,Automotive,Car Charger,SUP0015,277.11,351.62,88
+PRD00609,Brake Pads Basic,Automotive,Brake Pads,SUP0047,388.68,782.98,158
+PRD00610,Brake Pads Pro,Automotive,Brake Pads,SUP0093,412.19,492.03,132
+PRD00611,Brake Pads Standard,Automotive,Brake Pads,SUP0014,275.44,603.01,187
+PRD00612,Brake Pads Deluxe,Automotive,Brake Pads,SUP0005,376.92,551.28,135
+PRD00613,Brake Pads Lite,Automotive,Brake Pads,SUP0012,135.09,277.65,132
+PRD00614,Brake Pads Max,Automotive,Brake Pads,SUP0104,433.32,551.73,80
+PRD00615,Brake Pads Plus,Automotive,Brake Pads,SUP0089,108.89,209.56,109
+PRD00616,Brake Pads Elite,Automotive,Brake Pads,SUP0055,431.22,772.22,62
+PRD00617,Roof Rack Basic,Automotive,Roof Rack,SUP0105,309.99,611.95,72
+PRD00618,Roof Rack Pro,Automotive,Roof Rack,SUP0069,403.69,705.88,91
+PRD00619,Roof Rack Standard,Automotive,Roof Rack,SUP0091,300.44,398.62,94
+PRD00620,Roof Rack Deluxe,Automotive,Roof Rack,SUP0110,148.22,212.06,151
+PRD00621,Roof Rack Lite,Automotive,Roof Rack,SUP0013,492.82,918.25,54
+PRD00622,Roof Rack Max,Automotive,Roof Rack,SUP0118,481.57,951.09,35
+PRD00623,Roof Rack Plus,Automotive,Roof Rack,SUP0017,496.28,1022.54,199
+PRD00624,Roof Rack Elite,Automotive,Roof Rack,SUP0092,433.71,612.47,102
+PRD00625,Floor Mats Basic,Automotive,Floor Mats,SUP0087,415.1,809.26,120
+PRD00626,Floor Mats Pro,Automotive,Floor Mats,SUP0035,247.28,434.3,180
+PRD00627,Floor Mats Standard,Automotive,Floor Mats,SUP0082,210.04,341.23,43
+PRD00628,Floor Mats Deluxe,Automotive,Floor Mats,SUP0089,204.41,396.0,114
+PRD00629,Floor Mats Lite,Automotive,Floor Mats,SUP0075,230.07,382.48,20
+PRD00630,Floor Mats Max,Automotive,Floor Mats,SUP0012,435.11,887.42,137
+PRD00631,Floor Mats Plus,Automotive,Floor Mats,SUP0109,319.25,600.88,36
+PRD00632,Floor Mats Elite,Automotive,Floor Mats,SUP0055,398.86,625.25,74
+PRD00633,Air Filter Basic,Automotive,Air Filter,SUP0037,249.88,372.07,106
+PRD00634,Air Filter Pro,Automotive,Air Filter,SUP0110,275.92,355.14,144
+PRD00635,Air Filter Standard,Automotive,Air Filter,SUP0098,395.21,825.54,32
+PRD00636,Air Filter Deluxe,Automotive,Air Filter,SUP0108,27.74,50.14,137
+PRD00637,Air Filter Lite,Automotive,Air Filter,SUP0021,13.06,27.76,132
+PRD00638,Air Filter Max,Automotive,Air Filter,SUP0055,230.98,506.18,71
+PRD00639,Air Filter Plus,Automotive,Air Filter,SUP0113,497.87,1047.96,186
+PRD00640,Air Filter Elite,Automotive,Air Filter,SUP0113,154.42,319.36,90
+PRD00641,Coffee Beans Basic,Groceries,Coffee Beans,SUP0011,51.2,78.26,115
+PRD00642,Coffee Beans Pro,Groceries,Coffee Beans,SUP0007,333.93,611.54,121
+PRD00643,Coffee Beans Standard,Groceries,Coffee Beans,SUP0097,314.67,601.74,79
+PRD00644,Coffee Beans Deluxe,Groceries,Coffee Beans,SUP0013,217.47,270.92,20
+PRD00645,Coffee Beans Lite,Groceries,Coffee Beans,SUP0076,110.64,136.29,77
+PRD00646,Coffee Beans Max,Groceries,Coffee Beans,SUP0002,262.12,423.93,198
+PRD00647,Coffee Beans Plus,Groceries,Coffee Beans,SUP0111,175.07,223.5,128
+PRD00648,Coffee Beans Elite,Groceries,Coffee Beans,SUP0030,348.55,575.66,118
+PRD00649,Olive Oil Basic,Groceries,Olive Oil,SUP0014,49.22,98.26,100
+PRD00650,Olive Oil Pro,Groceries,Olive Oil,SUP0049,186.94,273.72,54
+PRD00651,Olive Oil Standard,Groceries,Olive Oil,SUP0009,322.58,600.32,155
+PRD00652,Olive Oil Deluxe,Groceries,Olive Oil,SUP0022,283.83,508.29,132
+PRD00653,Olive Oil Lite,Groceries,Olive Oil,SUP0096,178.84,245.67,58
+PRD00654,Olive Oil Max,Groceries,Olive Oil,SUP0057,460.35,827.19,75
+PRD00655,Olive Oil Plus,Groceries,Olive Oil,SUP0097,47.91,60.15,51
+PRD00656,Olive Oil Elite,Groceries,Olive Oil,SUP0055,296.84,461.06,100
+PRD00657,Rice Basic,Groceries,Rice,SUP0083,396.58,559.25,41
+PRD00658,Rice Pro,Groceries,Rice,SUP0093,127.84,227.69,175
+PRD00659,Rice Standard,Groceries,Rice,SUP0004,146.04,312.28,188
+PRD00660,Rice Deluxe,Groceries,Rice,SUP0078,438.53,598.91,150
+PRD00661,Rice Lite,Groceries,Rice,SUP0083,98.38,153.6,33
+PRD00662,Rice Max,Groceries,Rice,SUP0031,392.98,779.46,146
+PRD00663,Rice Plus,Groceries,Rice,SUP0082,196.01,275.03,172
+PRD00664,Rice Elite,Groceries,Rice,SUP0002,40.15,83.64,112
+PRD00665,Pasta Basic,Groceries,Pasta,SUP0111,467.29,602.14,165
+PRD00666,Pasta Pro,Groceries,Pasta,SUP0023,213.33,367.71,140
+PRD00667,Pasta Standard,Groceries,Pasta,SUP0003,477.45,935.27,170
+PRD00668,Pasta Deluxe,Groceries,Pasta,SUP0006,38.43,54.77,35
+PRD00669,Pasta Lite,Groceries,Pasta,SUP0037,474.6,744.11,180
+PRD00670,Pasta Max,Groceries,Pasta,SUP0055,357.75,699.57,199
+PRD00671,Pasta Plus,Groceries,Pasta,SUP0069,204.13,372.04,177
+PRD00672,Pasta Elite,Groceries,Pasta,SUP0011,80.58,99.74,150
+PRD00673,Cereal Basic,Groceries,Cereal,SUP0020,460.86,1001.46,157
+PRD00674,Cereal Pro,Groceries,Cereal,SUP0098,166.74,294.42,186
+PRD00675,Cereal Standard,Groceries,Cereal,SUP0090,342.12,417.19,131
+PRD00676,Cereal Deluxe,Groceries,Cereal,SUP0008,366.33,746.87,82
+PRD00677,Cereal Lite,Groceries,Cereal,SUP0059,47.68,76.58,176
+PRD00678,Cereal Max,Groceries,Cereal,SUP0095,306.37,451.82,188
+PRD00679,Cereal Plus,Groceries,Cereal,SUP0091,371.63,473.98,55
+PRD00680,Cereal Elite,Groceries,Cereal,SUP0045,352.24,465.67,153
+PRD00681,Tea Basic,Groceries,Tea,SUP0034,261.03,525.62,62
+PRD00682,Tea Pro,Groceries,Tea,SUP0112,189.08,366.3,88
+PRD00683,Tea Standard,Groceries,Tea,SUP0116,367.8,468.56,27
+PRD00684,Tea Deluxe,Groceries,Tea,SUP0068,170.83,273.46,36
+PRD00685,Tea Lite,Groceries,Tea,SUP0081,135.16,293.81,39
+PRD00686,Tea Max,Groceries,Tea,SUP0008,250.59,422.58,147
+PRD00687,Tea Plus,Groceries,Tea,SUP0021,430.38,570.35,85
+PRD00688,Tea Elite,Groceries,Tea,SUP0087,387.8,810.11,49
+PRD00689,Spices Basic,Groceries,Spices,SUP0006,118.06,198.84,23
+PRD00690,Spices Pro,Groceries,Spices,SUP0050,126.05,207.4,58
+PRD00691,Spices Standard,Groceries,Spices,SUP0005,93.59,202.0,161
+PRD00692,Spices Deluxe,Groceries,Spices,SUP0084,402.54,764.71,127
+PRD00693,Spices Lite,Groceries,Spices,SUP0118,116.14,163.84,101
+PRD00694,Spices Max,Groceries,Spices,SUP0048,139.27,171.55,50
+PRD00695,Spices Plus,Groceries,Spices,SUP0023,253.51,531.62,77
+PRD00696,Spices Elite,Groceries,Spices,SUP0052,403.15,879.06,37
+PRD00697,Honey Basic,Groceries,Honey,SUP0100,439.11,904.27,99
+PRD00698,Honey Pro,Groceries,Honey,SUP0002,167.01,289.05,114
+PRD00699,Honey Standard,Groceries,Honey,SUP0039,104.33,181.74,179
+PRD00700,Honey Deluxe,Groceries,Honey,SUP0064,125.08,192.21,70
+PRD00701,Honey Lite,Groceries,Honey,SUP0102,367.57,633.65,82
+PRD00702,Honey Max,Groceries,Honey,SUP0004,79.53,169.32,79
+PRD00703,Honey Plus,Groceries,Honey,SUP0089,273.06,496.35,22
+PRD00704,Honey Elite,Groceries,Honey,SUP0085,475.74,547.83,116
+PRD00705,Snack Bars Basic,Groceries,Snack Bars,SUP0014,425.26,813.77,72
+PRD00706,Snack Bars Pro,Groceries,Snack Bars,SUP0063,267.26,374.18,35
+PRD00707,Snack Bars Standard,Groceries,Snack Bars,SUP0036,486.42,632.1,43
+PRD00708,Snack Bars Deluxe,Groceries,Snack Bars,SUP0109,26.73,37.24,153
+PRD00709,Snack Bars Lite,Groceries,Snack Bars,SUP0059,209.46,437.85,41
+PRD00710,Snack Bars Max,Groceries,Snack Bars,SUP0082,292.48,491.57,120
+PRD00711,Snack Bars Plus,Groceries,Snack Bars,SUP0056,42.04,73.41,189
+PRD00712,Snack Bars Elite,Groceries,Snack Bars,SUP0034,482.29,674.54,100
+PRD00713,Canned Goods Basic,Groceries,Canned Goods,SUP0107,463.39,724.09,103
+PRD00714,Canned Goods Pro,Groceries,Canned Goods,SUP0010,162.44,233.19,71
+PRD00715,Canned Goods Standard,Groceries,Canned Goods,SUP0014,72.38,141.77,59
+PRD00716,Canned Goods Deluxe,Groceries,Canned Goods,SUP0041,57.3,92.94,124
+PRD00717,Canned Goods Lite,Groceries,Canned Goods,SUP0099,64.76,98.84,73
+PRD00718,Canned Goods Max,Groceries,Canned Goods,SUP0110,228.7,374.27,50
+PRD00719,Canned Goods Plus,Groceries,Canned Goods,SUP0039,49.76,99.42,200
+PRD00720,Canned Goods Elite,Groceries,Canned Goods,SUP0107,349.95,417.26,103
+PRD00721,Printer Basic,Office Supplies,Printer,SUP0046,78.42,148.74,121
+PRD00722,Printer Pro,Office Supplies,Printer,SUP0034,259.16,482.31,64
+PRD00723,Printer Standard,Office Supplies,Printer,SUP0058,20.39,32.11,162
+PRD00724,Printer Deluxe,Office Supplies,Printer,SUP0060,375.3,530.05,46
+PRD00725,Printer Lite,Office Supplies,Printer,SUP0002,402.93,522.51,35
+PRD00726,Printer Max,Office Supplies,Printer,SUP0017,416.03,907.65,70
+PRD00727,Printer Plus,Office Supplies,Printer,SUP0081,412.72,635.94,185
+PRD00728,Printer Elite,Office Supplies,Printer,SUP0118,46.6,82.27,39
+PRD00729,Notebook Basic,Office Supplies,Notebook,SUP0116,15.79,19.23,185
+PRD00730,Notebook Pro,Office Supplies,Notebook,SUP0116,224.5,288.53,104
+PRD00731,Notebook Standard,Office Supplies,Notebook,SUP0007,65.65,140.45,63
+PRD00732,Notebook Deluxe,Office Supplies,Notebook,SUP0093,462.45,742.15,121
+PRD00733,Notebook Lite,Office Supplies,Notebook,SUP0055,250.58,388.87,64
+PRD00734,Notebook Max,Office Supplies,Notebook,SUP0036,180.2,379.09,91
+PRD00735,Notebook Plus,Office Supplies,Notebook,SUP0079,225.78,294.88,178
+PRD00736,Notebook Elite,Office Supplies,Notebook,SUP0064,310.4,567.92,125
+PRD00737,Pen Set Basic,Office Supplies,Pen Set,SUP0012,441.98,730.59,91
+PRD00738,Pen Set Pro,Office Supplies,Pen Set,SUP0083,194.59,309.44,154
+PRD00739,Pen Set Standard,Office Supplies,Pen Set,SUP0070,128.33,281.53,24
+PRD00740,Pen Set Deluxe,Office Supplies,Pen Set,SUP0046,494.75,975.16,142
+PRD00741,Pen Set Lite,Office Supplies,Pen Set,SUP0117,274.54,455.44,164
+PRD00742,Pen Set Max,Office Supplies,Pen Set,SUP0024,253.68,395.18,26
+PRD00743,Pen Set Plus,Office Supplies,Pen Set,SUP0115,162.84,224.71,91
+PRD00744,Pen Set Elite,Office Supplies,Pen Set,SUP0068,34.0,74.5,111
+PRD00745,Stapler Basic,Office Supplies,Stapler,SUP0021,384.59,845.94,45
+PRD00746,Stapler Pro,Office Supplies,Stapler,SUP0069,127.69,179.18,34
+PRD00747,Stapler Standard,Office Supplies,Stapler,SUP0074,383.2,822.04,119
+PRD00748,Stapler Deluxe,Office Supplies,Stapler,SUP0109,180.63,366.89,64
+PRD00749,Stapler Lite,Office Supplies,Stapler,SUP0104,92.17,163.34,198
+PRD00750,Stapler Max,Office Supplies,Stapler,SUP0091,182.6,323.41,199
+PRD00751,Stapler Plus,Office Supplies,Stapler,SUP0019,179.08,312.68,164
+PRD00752,Stapler Elite,Office Supplies,Stapler,SUP0104,474.44,962.42,146
+PRD00753,Desk Organizer Basic,Office Supplies,Desk Organizer,SUP0005,273.35,364.74,43
+PRD00754,Desk Organizer Pro,Office Supplies,Desk Organizer,SUP0003,32.8,58.44,154
+PRD00755,Desk Organizer Standard,Office Supplies,Desk Organizer,SUP0079,241.6,361.99,71
+PRD00756,Desk Organizer Deluxe,Office Supplies,Desk Organizer,SUP0023,404.19,609.44,102
+PRD00757,Desk Organizer Lite,Office Supplies,Desk Organizer,SUP0091,34.48,45.0,56
+PRD00758,Desk Organizer Max,Office Supplies,Desk Organizer,SUP0111,388.31,791.69,113
+PRD00759,Desk Organizer Plus,Office Supplies,Desk Organizer,SUP0085,480.48,741.03,121
+PRD00760,Desk Organizer Elite,Office Supplies,Desk Organizer,SUP0042,295.08,443.62,54
+PRD00761,Whiteboard Basic,Office Supplies,Whiteboard,SUP0056,488.05,936.55,183
+PRD00762,Whiteboard Pro,Office Supplies,Whiteboard,SUP0023,480.53,880.16,163
+PRD00763,Whiteboard Standard,Office Supplies,Whiteboard,SUP0101,348.31,740.26,111
+PRD00764,Whiteboard Deluxe,Office Supplies,Whiteboard,SUP0023,115.5,204.25,116
+PRD00765,Whiteboard Lite,Office Supplies,Whiteboard,SUP0017,156.88,293.82,65
+PRD00766,Whiteboard Max,Office Supplies,Whiteboard,SUP0074,365.77,785.03,120
+PRD00767,Whiteboard Plus,Office Supplies,Whiteboard,SUP0073,426.12,834.93,28
+PRD00768,Whiteboard Elite,Office Supplies,Whiteboard,SUP0104,95.13,141.19,176
+PRD00769,Filing Cabinet Basic,Office Supplies,Filing Cabinet,SUP0120,114.34,199.39,147
+PRD00770,Filing Cabinet Pro,Office Supplies,Filing Cabinet,SUP0031,74.62,144.21,108
+PRD00771,Filing Cabinet Standard,Office Supplies,Filing Cabinet,SUP0114,491.28,651.58,42
+PRD00772,Filing Cabinet Deluxe,Office Supplies,Filing Cabinet,SUP0094,411.72,763.13,105
+PRD00773,Filing Cabinet Lite,Office Supplies,Filing Cabinet,SUP0032,226.08,322.95,197
+PRD00774,Filing Cabinet Max,Office Supplies,Filing Cabinet,SUP0014,38.56,54.74,20
+PRD00775,Filing Cabinet Plus,Office Supplies,Filing Cabinet,SUP0054,28.83,46.42,62
+PRD00776,Filing Cabinet Elite,Office Supplies,Filing Cabinet,SUP0049,442.85,738.56,109
+PRD00777,Calculator Basic,Office Supplies,Calculator,SUP0062,275.28,345.89,167
+PRD00778,Calculator Pro,Office Supplies,Calculator,SUP0021,327.23,612.42,135
+PRD00779,Calculator Standard,Office Supplies,Calculator,SUP0038,41.49,84.56,25
+PRD00780,Calculator Deluxe,Office Supplies,Calculator,SUP0010,162.76,349.81,107
+PRD00781,Calculator Lite,Office Supplies,Calculator,SUP0094,89.2,137.75,39
+PRD00782,Calculator Max,Office Supplies,Calculator,SUP0012,275.79,577.24,106
+PRD00783,Calculator Plus,Office Supplies,Calculator,SUP0062,299.05,536.59,200
+PRD00784,Calculator Elite,Office Supplies,Calculator,SUP0022,20.34,43.52,175
+PRD00785,Shredder Basic,Office Supplies,Shredder,SUP0013,445.43,585.72,104
+PRD00786,Shredder Pro,Office Supplies,Shredder,SUP0090,106.75,144.06,161
+PRD00787,Shredder Standard,Office Supplies,Shredder,SUP0034,362.41,694.55,189
+PRD00788,Shredder Deluxe,Office Supplies,Shredder,SUP0007,144.35,202.01,120
+PRD00789,Shredder Lite,Office Supplies,Shredder,SUP0020,288.03,585.23,33
+PRD00790,Shredder Max,Office Supplies,Shredder,SUP0038,183.61,293.59,189
+PRD00791,Shredder Plus,Office Supplies,Shredder,SUP0013,314.42,520.16,26
+PRD00792,Shredder Elite,Office Supplies,Shredder,SUP0011,107.44,195.55,141
+PRD00793,Backpack Bag Basic,Office Supplies,Backpack Bag,SUP0051,422.67,622.92,140
+PRD00794,Backpack Bag Pro,Office Supplies,Backpack Bag,SUP0012,247.1,455.68,184
+PRD00795,Backpack Bag Standard,Office Supplies,Backpack Bag,SUP0114,274.34,368.75,117
+PRD00796,Backpack Bag Deluxe,Office Supplies,Backpack Bag,SUP0034,187.85,303.95,132
+PRD00797,Backpack Bag Lite,Office Supplies,Backpack Bag,SUP0035,235.2,326.35,164
+PRD00798,Backpack Bag Max,Office Supplies,Backpack Bag,SUP0086,35.51,68.88,44
+PRD00799,Backpack Bag Plus,Office Supplies,Backpack Bag,SUP0070,47.43,71.67,125
+PRD00800,Backpack Bag Elite,Office Supplies,Backpack Bag,SUP0071,485.5,858.95,35

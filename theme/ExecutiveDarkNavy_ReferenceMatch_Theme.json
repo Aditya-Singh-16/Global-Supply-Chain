@@ -1,0 +1,62 @@
+{
+  "name": "Executive Dark Navy (Reference Match)",
+  "dataColors": [
+    "#2E9BF0",
+    "#33B679",
+    "#F2A93B",
+    "#8E6FE0",
+    "#2FB6B6",
+    "#E0576B",
+    "#4C7CE0",
+    "#7FD1E8",
+    "#C97A3D",
+    "#5D9CEC"
+  ],
+  "background": "#0B1B33",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#2E9BF0",
+  "good": "#33B679",
+  "neutral": "#F2A93B",
+  "bad": "#E0576B",
+  "maximum": "#2E9BF0",
+  "center": "#153454",
+  "minimum": "#0B1B33",
+  "null": "#25405F",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": [
+          {
+            "background": { "solid": { "color": "#122A4A" } },
+            "border": { "show": true, "color": { "solid": { "color": "#1E3C60" } }, "radius": 12 },
+            "outline": { "show": false }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "*": [
+          {
+            "background": { "solid": { "color": "#153B63" } },
+            "labels": { "color": { "solid": { "color": "#FFFFFF" } }, "fontSize": 24, "bold": true },
+            "categoryLabels": { "color": { "solid": { "color": "#9FC2E8" } }, "fontSize": 12 },
+            "border": { "show": true, "radius": 14 }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "*": [
+          { "background": { "color": { "solid": { "color": "#0B1B33" } }, "transparency": 0 } }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 16, "color": "#FFFFFF" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#FFFFFF" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#9FC2E8" }
+  }
+}

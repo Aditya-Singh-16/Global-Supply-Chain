@@ -1,0 +1,209 @@
+GLOBAL SUPPLY CHAIN & BI DASHBOARD — DAX MEASURE LIBRARY
+
+1. CORE SALES / REVENUE MEASURES
+
+Total Revenue = SUM(Sales[Revenue])
+
+Total Cost = SUM(Sales[Cost])
+
+Total Profit = SUM(Sales[Profit])
+
+Total Orders = DISTINCTCOUNT(Sales[OrderID])
+
+Total Quantity Sold = SUM(Sales[Quantity])
+
+Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Revenue])
+
+Gross Margin = DIVIDE([Total Revenue] - [Total Cost], [Total Revenue])
+
+Net Margin = DIVIDE([Total Profit], [Total Revenue])
+
+Average Selling Price = DIVIDE([Total Revenue], [Total Quantity Sold])
+
+Average Discount % = AVERAGE(Sales[Discount])
+
+2. TIME INTELLIGENCE
+
+YTD Sales = TOTALYTD([Total Revenue], Calendar[Date])
+
+MTD Sales = TOTALMTD([Total Revenue], Calendar[Date])
+
+QTD Sales = TOTALQTD([Total Revenue], Calendar[Date])
+
+Previous Year Sales = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(Calendar[Date]))
+
+Previous Month Sales = CALCULATE([Total Revenue], DATEADD(Calendar[Date], -1, MONTH))
+
+YoY Growth % = DIVIDE([Total Revenue] - [Previous Year Sales], [Previous Year Sales])
+
+MoM Growth % = DIVIDE([Total Revenue] - [Previous Month Sales], [Previous Month Sales])
+
+Running Total Revenue = 
+CALCULATE(
+    [Total Revenue],
+    FILTER(ALLSELECTED(Calendar), Calendar[Date] <= MAX(Calendar[Date]))
+)
+
+Prior Year Profit = CALCULATE([Total Profit], SAMEPERIODLASTYEAR(Calendar[Date]))
+
+YoY Profit Growth % = DIVIDE([Total Profit] - [Prior Year Profit], [Prior Year Profit])
+
+Rolling 3-Month Revenue = 
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD(Calendar[Date], MAX(Calendar[Date]), -3, MONTH)
+)
+
+3. CUSTOMER ANALYTICS
+
+Total Customers = DISTINCTCOUNT(Sales[CustomerID])
+
+New Customers = 
+CALCULATE(
+    DISTINCTCOUNT(Customers[CustomerID]),
+    Customers[JoinDate] >= MIN(Calendar[Date]) && Customers[JoinDate] <= MAX(Calendar[Date])
+)
+
+Repeat Customers = 
+COUNTROWS(
+    FILTER(
+        VALUES(Sales[CustomerID]),
+        CALCULATE(DISTINCTCOUNT(Sales[OrderID])) > 1
+    )
+)
+
+Repeat Customer Rate = DIVIDE([Repeat Customers], [Total Customers])
+
+Customer Lifetime Value = 
+DIVIDE([Total Revenue], DISTINCTCOUNT(Sales[CustomerID]))
+
+Revenue per Customer = DIVIDE([Total Revenue], [Total Customers])
+
+Average Orders per Customer = DIVIDE([Total Orders], [Total Customers])
+
+Top Customer Rank = 
+RANKX(ALLSELECTED(Customers[CustomerName]), [Total Revenue], , DESC)
+
+Customer Growth % = 
+VAR CurrentCustomers = [Total Customers]
+VAR PriorCustomers = CALCULATE([Total Customers], SAMEPERIODLASTYEAR(Calendar[Date]))
+RETURN DIVIDE(CurrentCustomers - PriorCustomers, PriorCustomers)
+
+4. PRODUCT / SALES ANALYTICS
+
+Total Products = DISTINCTCOUNT(Sales[ProductID])
+
+Revenue per Product = DIVIDE([Total Revenue], DISTINCTCOUNT(Sales[ProductID]))
+
+Top Product Rank = RANKX(ALLSELECTED(Products[ProductName]), [Total Revenue], , DESC)
+
+Top 10 Products Revenue = 
+CALCULATE(
+    [Total Revenue],
+    TOPN(10, ALLSELECTED(Products[ProductName]), [Total Revenue], DESC)
+)
+
+Bottom 10 Products Revenue = 
+CALCULATE(
+    [Total Revenue],
+    TOPN(10, ALLSELECTED(Products[ProductName]), [Total Revenue], ASC)
+)
+
+Category Revenue Share % = 
+DIVIDE([Total Revenue], CALCULATE([Total Revenue], ALL(Products[Category])))
+
+5. INVENTORY MEASURES
+
+Total Stock On Hand = SUM(Inventory[StockOnHand])
+
+Inventory Value = SUMX(Inventory, Inventory[StockOnHand] * RELATED(Products[UnitCost]))
+
+Low Stock Products = 
+CALCULATE(
+    DISTINCTCOUNT(Inventory[ProductID]),
+    Inventory[StockStatus] = "Low Stock"
+)
+
+Out of Stock Products = 
+CALCULATE(
+    DISTINCTCOUNT(Inventory[ProductID]),
+    Inventory[StockStatus] = "Out of Stock"
+)
+
+Reorder Alerts = 
+CALCULATE(
+    COUNTROWS(Inventory),
+    Inventory[StockOnHand] < Inventory[ReorderLevel]
+)
+
+Inventory Turnover = DIVIDE([Total Quantity Sold], [Total Stock On Hand])
+
+Stock Coverage (Days) = DIVIDE([Total Stock On Hand], DIVIDE([Total Quantity Sold], 365))
+
+Fill Rate = 
+DIVIDE(
+    CALCULATE([Total Quantity Sold], Inventory[StockStatus] <> "Out of Stock"),
+    [Total Quantity Sold]
+)
+
+6. LOGISTICS / SHIPMENT MEASURES
+
+Total Shipments = DISTINCTCOUNT(Shipments[ShipmentID])
+
+Delivered Shipments = CALCULATE([Total Shipments], Shipments[DeliveryStatus] = "Delivered")
+
+Delayed Shipments = CALCULATE([Total Shipments], Shipments[DeliveryStatus] = "Delayed")
+
+Lost Shipments = CALCULATE([Total Shipments], Shipments[DeliveryStatus] = "Lost/Returned")
+
+On-Time Delivery % = 
+DIVIDE(
+    CALCULATE([Total Shipments], Shipments[ActualDeliveryDate] <= Shipments[ExpectedDeliveryDate]),
+    [Total Shipments]
+)
+
+Delivery Success % = DIVIDE([Delivered Shipments], [Total Shipments])
+
+Average Delivery Days = 
+AVERAGEX(Shipments, DATEDIFF(Shipments[ShipDate], Shipments[ActualDeliveryDate], DAY))
+
+Total Shipping Cost = SUM(Shipments[ShippingCost])
+
+Average Shipping Cost = AVERAGE(Shipments[ShippingCost])
+
+Delayed Delivery % = DIVIDE([Delayed Shipments], [Total Shipments])
+
+7. SUPPLIER MEASURES
+
+Average Supplier Rating = AVERAGE(Suppliers[Rating])
+
+Average Lead Time = AVERAGE(Suppliers[LeadTimeDays])
+
+Total Purchase Value = SUMX(Sales, Sales[Quantity] * RELATED(Products[UnitCost]))
+
+Top Supplier Rank = RANKX(ALLSELECTED(Suppliers[SupplierName]), [Total Purchase Value], , DESC)
+
+Supplier Count = DISTINCTCOUNT(Suppliers[SupplierID])
+
+8. DYNAMIC / UI-SUPPORT MEASURES (used for tooltips, titles, drillthrough)
+
+Selected KPI Value = 
+SWITCH(
+    SELECTEDVALUE('KPI Selector'[KPI]),
+    "Revenue", [Total Revenue],
+    "Profit", [Total Profit],
+    "Orders", [Total Orders],
+    [Total Revenue]
+)
+
+Dynamic Title = 
+"Revenue Overview: " & SELECTEDVALUE(Calendar[Year], "All Years")
+
+Selected Country Revenue = 
+IF(
+    HASONEVALUE(Customers[Country]),
+    [Total Revenue],
+    BLANK()
+)
